@@ -186,7 +186,7 @@
   "resid": 5046586585047,
   "id": "vampire_castle_soul_forge",
   "DLC": "THRONESOFBLOOD ",
-  "description": "<bulletlist><bullet>Unlocks the <hyperlink>Item Forge</hyperlink>, allowing you to create custom Hero Items using <bindingessence></bindingessence> <hyperlink>Binding Essence</hyperlink>.</bullet><bullet>Unlocks the drafting of the <hyperlink>Vampire Spider Hatchling</hyperlink>, <hyperlink>Doom Bat</hyperlink>, <hyperlink>Shrieking Bat</hyperlink>, and <hyperlink>Vampire Spider Matriarch</hyperlink> units. These units gain a <thralls></thralls> <hyperlink>Thrall</hyperlink> cost to draft.</bullet></bulletlist>",
+  "description": "<bulletlist><bullet>Unlocks the <hyperlink>Item Forge</hyperlink>, allowing you to create custom Hero Items using <bindingessence></bindingessence> <hyperlink>Binding Essence</hyperlink>.</bullet><bullet>Unlocks the drafting of the , <hyperlink>Doom Bat</hyperlink>, <hyperlink>Shrieking Bat</hyperlink>, and <hyperlink>Vampire Spider Matriarch</hyperlink> units. These units gain a <thralls></thralls> <hyperlink>Thrall</hyperlink> cost to draft.</bullet></bulletlist>",
   "name": "Vampire Castle: Soul Forge",
   "icon": "0000049700002FD8",
   "is_sector_upgrade": false
@@ -1051,7 +1051,7 @@
   "resid": 5003636906268,
   "id": "shrine_of_fulfilled_promise",
   "DLC": "ARCHONPROPHECY ",
-  "description": "<bulletlist><bullet>The city produces 20% more income and has Titan Guardian</bullet></bulletlist>",
+  "description": "<bulletlist><bullet>The city produces 30% more income and has Giant Guardian</bullet></bulletlist>",
   "name": "Shrine of Fulfilled Promise",
   "icon": "0000048D00001982",
   "is_sector_upgrade": false

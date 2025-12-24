@@ -107,7 +107,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "10% <hyperlink>Fumble</hyperlink> chance when adjacent to another friendly unit."
+    "name": "15% <hyperlink>Fumble</hyperlink> chance when adjacent to another friendly unit."
    }
   ],
   "enabled": true,
@@ -444,13 +444,13 @@
  {
   "lore_description": "<helpcolor>Units become stronger when they sustain magical damage.</helpcolor>",
   "biography_description": "They find power through magical pain.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "empowered_by_magic",
   "name": "Empowered by Magic",
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Once per turn, when taking non-<damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> damage, gain Strengthened for 3 <turn></turn> Turns."
+    "name": "When taking non-<damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> damage, gain Strengthened for 3 <turn></turn> Turns."
    }
   ],
   "enabled": true,
@@ -458,7 +458,7 @@
   "front_end": true,
   "icon": "0000049700000C93",
   "type": "form",
-  "display_order": 4
+  "display_order": 5
  },
  {
   "lore_description": "<helpcolor>Adjacent enemies have a chance to miss their attacks.</helpcolor>",
@@ -469,7 +469,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Adjacent enemies without this trait have a 15% <hyperlink>Fumble</hyperlink> chance."
+    "name": "Adjacent enemies without this trait have a 20% <hyperlink>Fumble</hyperlink> chance."
    }
   ],
   "enabled": true,
@@ -727,7 +727,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Friendly units do not block movement."
+    "name": "Friendly units get Swift and Slippery and do not block movement"
    }
   ],
   "enabled": true,
@@ -812,7 +812,7 @@
   ],
   "lore_description": "They study the stars, channeling their blessings when they act under their guidance.",
   "biography_description": "Always gazing at the stars, they act under their guidance.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "astrological_diviners",
   "name": "Astrological Diviners",
   "screen_description": "",
@@ -825,7 +825,7 @@
   "front_end": false,
   "icon": "0000049300000DA0",
   "type": "society",
-  "display_order": 4
+  "display_order": 0
  },
  {
   "starting_bonuses": [
@@ -840,7 +840,7 @@
   ],
   "biography_description": "Where the land is infested, they strike with lawful strength.",
   "lore_description": "They keep the lands safe and restore balance between warring neighbors.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "vigilante_knights",
   "name": "Vigilante Knights",
   "screen_description": "",
@@ -855,15 +855,11 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 6,
+  "display_order": 0,
   "icon": "00000493000008F8"
  },
  {
-  "starting_bonuses": [
-   {
-    "description": "Start with +1 <unitHero></unitHero> <hyperlink>Hero Cap</hyperlink> and +3 Hero Cap for Pantheon heroes."
-   }
-  ],
+  "starting_bonuses": [],
   "affinities": [
    {
     "name": "1<shadow></shadow> Shadow Affinity"
@@ -871,7 +867,7 @@
   ],
   "biography_description": "They elevate their heroes above the masses, empowered through dark elation.",
   "lore_description": "They believe in the might of their heroes, the chosen few, elevated above the masses.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "cult_of_personality",
   "name": "Cult of Personality",
   "screen_description": "",
@@ -889,7 +885,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 1,
+  "display_order": 0,
   "icon": "00000493000008F4"
  },
  {
@@ -1125,7 +1121,7 @@
   ],
   "biography_description": "Beneath the earth, they can be found, prospering and digging deeper still.",
   "lore_description": "They know the earth like no other, favoring the depths of the realms to the turbulent surface.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "subterranean_society",
   "name": "Subterranean Society",
   "screen_description": "",
@@ -1143,14 +1139,11 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 2,
+  "display_order": 0,
   "icon": "0000048D00001282"
  },
  {
   "starting_bonuses": [
-   {
-    "empire_progression_slug": "forced_march"
-   },
    {
     "description": "Start with an extra Scout Unit."
    }
@@ -1169,10 +1162,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Forced March</hyperlink> inflicts no damage to your <hyperlink>Units</hyperlink>."
-   },
-   {
-    "name": "<hyperlink.RoutingConcept.HeroConcept>Routed</hyperlink> units are never lost."
+    "name": "Routed units are 50% less likely to be lost (default is 40%)"
    },
    {
     "name": "All units gain Road Walk."
@@ -1212,7 +1202,7 @@
     "name": "Unlocking a new <hyperlink>Tome</hyperlink> grants +100 Relation with all <hyperlink>Empires</hyperlink>."
    },
    {
-    "name": "Gain +10 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income for each empire you have <hyperlink>Open Borders</hyperlink> with."
+    "name": "Gain +5 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income for each empire you have <hyperlink>Open Borders</hyperlink> with."
    },
    {
     "name": "+10 <goodact></goodact> <hyperlink>Alignment</hyperlink>."
@@ -1288,7 +1278,7 @@
   ],
   "biography_description": "Caretakers of the natural order, maintaining a carefully tended biome.",
   "lore_description": "Caretakers of the natural order, maintaining a carefully tended biome.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "druidic_terraformers",
   "name": "Druidic Terraformers",
   "screen_description": "",
@@ -1306,7 +1296,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 3,
+  "display_order": 0,
   "icon": "0000048D00000320"
  },
  {
@@ -1331,7 +1321,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Routing</hyperlink> <hyperlink>Units</hyperlink> are <hyperlink>Captured</hyperlink> if your side is victorious in <hyperlink>Combat</hyperlink>."
+    "name": "<hyperlink>Routing</hyperlink> <hyperlink>Units</hyperlink> are <hyperlink>Captured</hyperlink> if your side is victorious in <hyperlink>Combat</hyperlink>.<bulletlist><bullet>Capturing tier 2 units require Wizard's tower foundation</bullet><bullet>Capturing tier 3 units require Wizard's tower level 1</bullet><bullet>Capturing tier 4 units require Wizard's tower level 2</bullet><bullet>Capturing tier 5 units require Wizard's tower apex</bullet><bullet>Heroes and units with Control loss immunity cannot be captured</bullet><bullet>Capturing units cost +50% in gold.</bullet></bulletlist>"
    },
    {
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>."
@@ -1359,12 +1349,21 @@
   ],
   "biography_description": "They are absolute in their crusade to root out evil.",
   "lore_description": "They are absolute in their dedication to rooting out evil, sparing no mercy for the wicked.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "relentless_crusaders__goodact__",
   "name": "Relentless Crusaders <goodact></goodact>",
   "incompatible_society_traits": [
    {
     "name": "Chosen Destroyers <evilact></evilact>"
+   },
+   {
+    "name": "Merciless Slavers <evilact></evilact>"
+   },
+   {
+    "name": "Ritual Cannibals <evilact></evilact>"
+   },
+   {
+    "name": "Ruthless Raiders <evilact></evilact>"
    },
    {
     "name": "Scions of Evil <evilact></evilact>"
@@ -1385,7 +1384,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 6,
+  "display_order": 0,
   "icon": "0000048D00000196"
  },
  {
@@ -1407,7 +1406,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> gain +15% <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>, +15% <food></food> <hyperlink>Food</hyperlink>, +15% <structureprod></structureprod> <hyperlink>Production</hyperlink>, and +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> income when their <hyperlink>Domain</hyperlink> does not border the <hyperlink>Domain</hyperlink> of any other <hyperlink>City</hyperlink> or <hyperlink>Outpost</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> gain +10% <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>, <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, and +20 <happiness></happiness> <hyperlink>City Stability</hyperlink> income when their <hyperlink>Domain</hyperlink> does not border the <hyperlink>Domain</hyperlink> of any other <hyperlink>City</hyperlink> or <hyperlink>Outpost</hyperlink>."
    },
    {
     "name": "Grievances inflicted by other empires encroaching on your territory are increased by +100%."
@@ -1544,7 +1543,7 @@
   ],
   "biography_description": "They value and cultivate good relationships with their vassals.",
   "lore_description": "They value and cultivate good relationships with their vassals, raising their banners in times of war.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "bannerlords",
   "name": "Bannerlords",
   "incompatible_society_traits": [
@@ -1561,7 +1560,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 6,
+  "display_order": 0,
   "starting_bonuses": [
    {
     "description": "Start with the nearest <minorcity></minorcity><hyperlink>Free City</hyperlink> revealed and gain +25 <hyperlink><allegiance></allegiance>Allegiance</hyperlink> with them."
@@ -1582,7 +1581,7 @@
   ],
   "biography_description": "A people who have embraced magic to a degree few can match, gaining more than most from spells, but becoming dependent on them in turn.",
   "lore_description": "They have embraced magic to a degree few can match, gaining more than most from its prowess... but becoming dependent on its marvel in return.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "mana_addicts",
   "name": "Mana Addicts",
   "screen_description": "",
@@ -1591,13 +1590,13 @@
     "name": "All <hyperlink>Units</hyperlink> gain Attunement: Mana Addicted."
    },
    {
-    "name": "Provinces with Mana <hyperlink>Resource Nodes</hyperlink> grant +10 <happiness></happiness> <hyperlink>City Stability</hyperlink>."
+    "name": "<casttactical></casttactical> <hyperlink>Damage Spells</hyperlink> gain +% damage."
    }
   ],
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 4,
+  "display_order": 0,
   "icon": "0000045A00000481"
  },
  {
@@ -1613,7 +1612,7 @@
   ],
   "biography_description": "They hold artisans in high regard. Every mason or thatcher is an artist in their own right, given the time and resources needed to work their art.",
   "lore_description": "They demand perfection of their artisans, taking their time to build marvels like no other.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "perfectionist_artisans",
   "name": "Perfectionist Artisans",
   "screen_description": "",
@@ -1623,12 +1622,15 @@
    },
    {
     "name": "Racial <hyperlink>Unit tier</hyperlink> 3 Units have +1 Rank"
+   },
+   {
+    "name": "<hyperlink>City Cap</hyperlink> is decreased by -1<citytier></citytier>."
    }
   ],
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 2,
+  "display_order": 0,
   "icon": "0000045A0000047B"
  },
  {
@@ -1644,7 +1646,7 @@
   ],
   "biography_description": "They are fascinated by rare materials and spend large parts of their lives collecting and studying them.",
   "lore_description": "They are fascinated by rare materials and spend large parts of their lives collecting and studying them.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "talented_collectors",
   "name": "Talented Collectors",
   "screen_description": "",
@@ -1656,7 +1658,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 3,
+  "display_order": 0,
   "icon": "0000045A00000474"
  },
  {
@@ -1670,13 +1672,10 @@
   ],
   "biography_description": "They are warmongers and destroyers, choosing violence over diplomacy any time they can.",
   "lore_description": "They are warmongers and destroyers, choosing violence over diplomacy any time they can.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "chosen_destroyers__evilact__",
   "name": "Chosen Destroyers <evilact></evilact>",
   "incompatible_society_traits": [
-   {
-    "name": "Imperialists"
-   },
    {
     "name": "Chosen Uniters <goodact></goodact>"
    },
@@ -1684,19 +1683,31 @@
     "name": "Devotees of Good <goodact></goodact>"
    },
    {
-    "name": "Keepers of Knowledge <goodact></goodact>"
+    "name": "Adept Settlers"
    },
    {
-    "name": "Adept Settlers"
+    "name": "Bannerlords"
+   },
+   {
+    "name": "Imperialists"
+   },
+   {
+    "name": "Silver Tongued"
+   },
+   {
+    "name": "Relentless Crusaders <goodact></goodact>"
    }
   ],
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Razing cities grant a permanent +40 <gold></gold> <hyperlink>Gold</hyperlink>, +40 <mana></mana> <hyperlink>Mana</hyperlink>, and +40 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income for every 3 <population></population> <hyperlink>Population</hyperlink> of the city that was razed."
+    "name": "Razing cities grant a permanent +40 <gold></gold> <hyperlink>Gold</hyperlink>, +40 <mana></mana> <hyperlink>Mana</hyperlink>, and +40 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income for every <population></population> <hyperlink>Population</hyperlink> of the city that was razed."
    },
    {
     "name": "Can not obtain new <hyperlink>Cities</hyperlink> and conquered cities can only be razed."
+   },
+   {
+    "name": "Gain access to city structures that increase the <unitHero></unitHero> <hyperlink>Hero Cap</hyperlink>. One can be built every city tier of your <hyperlink>Throne City</hyperlink>."
    },
    {
     "name": "Suffer -300 <hyperlink>Relations</hyperlink> with all <minorcity></minorcity><hyperlink>Free Cities</hyperlink> and -300 <hyperlink>Empire Relations</hyperlink> with all other <hyperlink>Empires</hyperlink>"
@@ -1708,7 +1719,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 5,
+  "display_order": 0,
   "icon": "0000045A00000454"
  },
  {
@@ -1719,7 +1730,7 @@
   ],
   "biography_description": "They know when to flatter and when to extort, elevating intrigue itself to a lucrative art.",
   "lore_description": "They know when to flatter and when to extort, elevating intrigue itself to a lucrative art.",
-  "point_cost": 1,
+  "point_cost": 10,
   "id": "silver_tongued",
   "name": "Silver Tongued",
   "incompatible_society_traits": [
@@ -1739,7 +1750,7 @@
   "enabled": true,
   "front_end": false,
   "type": "society",
-  "display_order": 1,
+  "display_order": 0,
   "starting_bonuses": [
    {
     "description": "Start with an extra Scout Unit."
@@ -1932,7 +1943,7 @@
     "name": "Gain Swamp Walk and River Walk, increasing world map movement speed in swamps and rivers."
    },
    {
-    "name": "Ignore the -2 <food></food> <hyperlink>Food</hyperlink> penalty from building <farm></farm> <hyperlink>Farms</hyperlink> in Swamps."
+    "name": "Ignore the -2 <food></food> <hyperlink>Food</hyperlink> penalty from building <farm></farm> <hyperlink>Farms</hyperlink> in Swamps. in addition farms in swamps provide additional +2 <food></food> <hyperlink>Food</hyperlink>"
    },
    {
     "name": "Start in the swamps."
@@ -2068,7 +2079,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Gains +5 Defense and Resistance against Retaliation Attacks and Opportunity Attacks."
+    "name": "Gains +4 Defense and Resistance against Retaliation Attacks and Opportunity Attacks."
    }
   ],
   "enabled": true,
@@ -2081,13 +2092,13 @@
  {
   "lore_description": "<helpcolor>Units move faster in combat and on the world map.</helpcolor>",
   "biography_description": "Trained in long distance running, they are exceptionally fast.",
-  "point_cost": 3,
+  "point_cost": 2,
   "id": "athletics",
   "name": "Athletics",
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Fast Movement, having 40 movement on the <hyperlink>World Map</hyperlink> and in <hyperlink>Combat</hyperlink>."
+    "name": "Fast Movement"
    }
   ],
   "enabled": true,
@@ -2095,7 +2106,7 @@
   "front_end": true,
   "icon": "0000041B00001CF4",
   "type": "form",
-  "display_order": 1
+  "display_order": 4
  },
  {
   "biography_description": "They have trained to cover any gaps in their defensive formations.",
@@ -2407,7 +2418,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<caststrategic></caststrategic> Unit Enchantment Research cost -40% <knowledge></knowledge> Knowledge to unlock."
+    "name": "<caststrategic></caststrategic> Unit Enchantment Research cost -30% <knowledge></knowledge> Knowledge to unlock."
    },
    {
     "name": "<caststrategic></caststrategic> <hyperlink>Unit Enchantments</hyperlink> cost -30% upkeep."
@@ -2441,7 +2452,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "<hyperlink>Cities</hyperlink> gain +2 <gold></gold> <hyperlink>Gold</hyperlink> per Quarry in their <hyperlink>Domain</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> gain +5 <gold></gold> <hyperlink>Gold</hyperlink> per Quarry in their <hyperlink>Domain</hyperlink>."
    },
    {
     "name": "Special Province Improvements cost -50% <structureprod></structureprod> Production."
@@ -2534,7 +2545,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "Gain +75% resources from clearing an <hyperlink>Infestation</hyperlink>, <hyperlink>Ancient Wonder</hyperlink>, or <hyperlink>Resource Node</hyperlink>."
+    "name": "Gain +50% resources from clearing an <hyperlink>Infestation</hyperlink>, <hyperlink>Ancient Wonder</hyperlink>, or <hyperlink>Resource Node</hyperlink>."
    },
    {
     "name": "Units <hyperlink>regenerate</hyperlink> an additional +5 <hyperlink><hp></hp> Hit Points</hyperlink> per <turn></turn> <hyperlink>Turn</hyperlink>."
@@ -2596,10 +2607,10 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "+10 <optactical></optactical> Combat Casting Points"
+    "name": "+20 <optactical></optactical> Combat Casting Points"
    },
    {
-    "name": "+10 <caststrategic></caststrategic> World Map Casting Points."
+    "name": "+20 <caststrategic></caststrategic> World Map Casting Points."
    },
    {
     "name": "<hyperlink>Combat Spells</hyperlink> cost -20% less <mana></mana> <hyperlink>Mana</hyperlink> to cast."
@@ -2639,7 +2650,7 @@
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>."
    },
    {
-    "name": "The nearest City owned gains +3 <mana></mana> <hyperlink>Mana</hyperlink> and +3 <food></food> <hyperlink>Food</hyperlink> per tier of non-Magic Origin units killed or lost after successful combat."
+    "name": "The nearest City owned gains +2 <mana></mana> <hyperlink>Mana</hyperlink> and +2 <food></food> <hyperlink>Food</hyperlink> per tier of non-Magic Origin units killed or lost after successful combat."
    }
   ],
   "enabled": true,
@@ -2670,7 +2681,7 @@
   "screen_description": "",
   "effect_descriptions": [
    {
-    "name": "The nearest City owned gains +3 <gold></gold> <hyperlink>Gold</hyperlink> and +3 <unitprod></unitprod> <hyperlink>Draft</hyperlink> per tier of units killed after successful combat."
+    "name": "The nearest City owned gains +2 <gold></gold> <hyperlink>Gold</hyperlink> and +2 <unitprod></unitprod> <hyperlink>Draft</hyperlink> per tier of units killed after successful combat."
    },
    {
     "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>."
@@ -2857,7 +2868,7 @@
  {
   "lore_description": "<helpcolor>Great for fighting enemies up close.</helpcolor>",
   "biography_description": "They hone their reflexes and will not let their enemy walk away from a fight unscathed.",
-  "point_cost": 2,
+  "point_cost": 1,
   "id": "ferocious",
   "name": "Ferocious",
   "screen_description": "",
@@ -2871,7 +2882,7 @@
   "front_end": true,
   "icon": "0000041B0000074C",
   "type": "form",
-  "display_order": 4
+  "display_order": 5
  },
  {
   "lore_description": "<helpcolor>Increases the damage of melee and ranged units.</helpcolor>",
@@ -3352,10 +3363,10 @@
     "name": "<xpCol>-10</xpCol><reputation0></reputation0> <hyperlink>Alignment</hyperlink>"
    },
    {
-    "name": "<hyperlink>Units</hyperlink> of this race earn <xpCol>+50%</xpCol> <hyperlink><xp></xp> Experience</hyperlink> in combat."
+    "name": "<hyperlink>Units</hyperlink> of this race earn <xpCol>+25%</xpCol> <hyperlink><xp></xp> Experience</hyperlink> in combat."
    },
    {
-    "name": "<hyperlink>Cities</hyperlink> of this race lose <fireCol>-2</fireCol> <happiness></happiness> <hyperlink>City Stability</hyperlink> for each <population></population> <hyperlink>Population</hyperlink>."
+    "name": "<hyperlink>Cities</hyperlink> of this race lose <fireCol>-1</fireCol> <happiness></happiness> <hyperlink>City Stability</hyperlink> for each <population></population> <hyperlink>Population</hyperlink>."
    }
   ],
   "enabled": true,
@@ -3479,5 +3490,495 @@
   "icon": "000003DF00001363",
   "type": "destiny",
   "display_order": -1
+ },
+ {
+  "affinities": [
+   {
+    "name": "1<arcana></arcana> Astral Affinity"
+   }
+  ],
+  "lore_description": "They study the stars, channeling their blessings when they act under their guidance.",
+  "biography_description": "Always gazing at the stars, they act under their guidance.",
+  "point_cost": 1,
+  "id": "astrological_diviners_trait",
+  "name": "Astrological Diviners Trait",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Every 10th <turn></turn> <hyperlink>Turn</hyperlink>:<bulletlist><bullet>Your <hyperlink>Units</hyperlink> gain Aligned Stars.</bullet><bullet>Non-Hero Units drafted, raised, or summoned during a 10th Turn permanently gain Born Under the Stars.</bullet><bullet><hyperlink>City Structures</hyperlink> and <hyperlink>Special Province Improvements</hyperlink> completed during a 10th Turn grant 100 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>.</bullet></bulletlist>"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "icon": "0000049300000DA0",
+  "type": "society",
+  "display_order": 4
+ },
+ {
+  "starting_bonuses": [
+   {
+    "empire_progression_slug": "excavation"
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<matter></matter> Materium Affinity"
+   }
+  ],
+  "biography_description": "Beneath the earth, they can be found, prospering and digging deeper still.",
+  "lore_description": "They know the earth like no other, favoring the depths of the realms to the turbulent surface.",
+  "point_cost": 1,
+  "id": "subterranean_society",
+  "name": "Subterranean Society",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Underground Passages grant +2 <influence></influence> <hyperlink>Imperium</hyperlink>."
+   },
+   {
+    "name": "\u000b\u000b<hyperlink>Underground</hyperlink> Cities gain +20% <food></food> <hyperlink>Food</hyperlink> income."
+   },
+   {
+    "name": "\u000b\u000b<hyperlink>Excavation</hyperlink> of Underground provinces has a chance of uncovering an additional <hyperlink>Resource Node</hyperlink>."
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 2,
+  "icon": "0000048D00001282"
+ },
+ {
+  "starting_bonuses": [
+   {
+    "description": "Starting <hyperlink>Units</hyperlink> gain +1 rank."
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<order></order> Order Affinity"
+   }
+  ],
+  "biography_description": "Where the land is infested, they strike with lawful strength.",
+  "lore_description": "They keep the lands safe and restore balance between warring neighbors.",
+  "point_cost": 1,
+  "id": "vigilante_knights",
+  "name": "Vigilante Knights",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Completing <hyperlink>Bounties</hyperlink> grants +50% <gold></gold> <hyperlink>Gold</hyperlink> and <mana></mana> <hyperlink>Mana</hyperlink> and an additional 100 <influence></influence> <hyperlink>Imperium</hyperlink> as rewards."
+   },
+   {
+    "name": "Whenever you have no <hyperlink>Bounties</hyperlink> active, gain a bounty offer targeting a nearby existing <hyperlink>Infestation</hyperlink> that hasn't been targeted before. It will not generate a new bounty if no more Infestations can be found."
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 6,
+  "icon": "00000493000008F8"
+ },
+ {
+  "starting_bonuses": [],
+  "affinities": [
+   {
+    "name": "1<shadow></shadow> Shadow Affinity"
+   }
+  ],
+  "biography_description": "They elevate their heroes above the masses, empowered through dark elation.",
+  "lore_description": "They believe in the might of their heroes, the chosen few, elevated above the masses.",
+  "point_cost": 1,
+  "id": "cult_of_personality",
+  "name": "Cult of Personality",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Heroes</hyperlink> gain a bonus Skill Point whenever they gain a <renown></renown> <hyperlink>Renown</hyperlink> Level."
+   },
+   {
+    "name": "<hyperlink>Heroes</hyperlink> gain +10 <gold></gold> <hyperlink>Gold</hyperlink> <hyperlink>Unit Upkeep</hyperlink> whenever they gain a <renown></renown> <hyperlink>Renown</hyperlink> Level."
+   },
+   {
+    "name": "in combat, <hyperlink>Units</hyperlink> in an <hyperlink>Army</hyperlink> without a Hero suffer -20 <happiness></happiness> <hyperlink>Morale</hyperlink>."
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 1,
+  "icon": "00000493000008F4"
+ },
+ {
+  "starting_bonuses": [
+   {
+    "description": "Start with an extra Elemental unit."
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<nature></nature> Nature Affinity"
+   }
+  ],
+  "biography_description": "Caretakers of the natural order, maintaining a carefully tended biome.",
+  "lore_description": "Caretakers of the natural order, maintaining a carefully tended biome.",
+  "point_cost": 1,
+  "id": "druidic_terraformers",
+  "name": "Druidic Terraformers",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Cities</hyperlink> gain <bulletlist><bullet>+20% <food></food> <hyperlink>Food</hyperlink> if the city core province contains Grasslands, Fungus Fields or Swamp.</bullet><bullet>+20% <structureprod></structureprod> <hyperlink>Production</hyperlink> if the city core province contains Forest, Rocky or Mountains.</bullet><bullet>+10% <gold></gold> <hyperlink>Gold</hyperlink> if the city core province contains Ashlands.</bullet><bullet>+10% <mana></mana> <hyperlink>Mana</hyperlink> if the city core province contains Snow, Ice or Sand.</bullet></bulletlist>"
+   },
+   {
+    "name": "Terraforming spells cost -25% less <mana></mana> <hyperlink>Mana</hyperlink> and <caststrategic></caststrategic> <hyperlink>World Map Casting Point</hyperlink> to cast."
+   },
+   {
+    "name": "-20% <hyperlink>Unit Upkeep</hyperlink> for Elemental Units."
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 3,
+  "icon": "0000048D00000320"
+ },
+ {
+  "affinities": [
+   {
+    "name": "10<reputation4></reputation4> <hyperlink>Alignment</hyperlink>"
+   },
+   {
+    "name": "1<order></order> Order Affinity"
+   }
+  ],
+  "biography_description": "They are absolute in their crusade to root out evil.",
+  "lore_description": "They are absolute in their dedication to rooting out evil, sparing no mercy for the wicked.",
+  "point_cost": 1,
+  "id": "relentless_crusaders__goodact__",
+  "name": "Relentless Crusaders <goodact></goodact>",
+  "incompatible_society_traits": [
+   {
+    "name": "Chosen Destroyers <evilact></evilact>"
+   },
+   {
+    "name": "Scions of Evil <evilact></evilact>"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Gain 1 <influence></influence> <hyperlink>Imperium</hyperlink> for each unit killed after successful combat.<br></br><br></br>Gain 3 <influence></influence> <hyperlink>Imperium</hyperlink> for each <hyperlink>Empire</hyperlink> <hyperlink>Unit</hyperlink> killed after successful combat.This reward increases by +1 for each level of <evilact></evilact>evil <hyperlink>Alignment</hyperlink> of the Faction they belonged to."
+   },
+   {
+    "name": "Gain 30 <casusBelli></casusBelli> <hyperlink>Grievances</hyperlink> against players with an <evilact></evilact>evil <hyperlink>Alignment</hyperlink>."
+   },
+   {
+    "name": "+10 <goodact></goodact> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 6,
+  "icon": "0000048D00000196"
+ },
+ {
+  "affinities": [
+   {
+    "name": "-10<reputation4></reputation4> <hyperlink>Alignment</hyperlink>"
+   },
+   {
+    "name": "1<chaos></chaos> Chaos Affinity"
+   }
+  ],
+  "biography_description": "They are merciless, viewing life as another prize to be claimed.",
+  "lore_description": "They are merciless; to them, life is a commodity that may be taken by blade or chain.",
+  "point_cost": 1,
+  "id": "merciless_slavers__evilact__",
+  "name": "Merciless Slavers <evilact></evilact>",
+  "incompatible_society_traits": [
+   {
+    "name": "Devotees of Good <goodact></goodact>"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Routing</hyperlink> <hyperlink>Units</hyperlink> are <hyperlink>Captured</hyperlink> if your side is victorious in <hyperlink>Combat</hyperlink>.<bulletlist><bullet>Capturing tier 2 units require Wizard's tower foundation</bullet><bullet>Capturing tier 3 units require Wizard's tower level 1</bullet><bullet>Capturing tier 4 units require Wizard's tower level 2</bullet><bullet>Capturing tier 5 units require Wizard's tower apex</bullet><bullet>Heroes and units with Control loss immunity cannot be captured</bullet><bullet>Capturing units cost +50% in gold.</bullet></bulletlist>"
+   },
+   {
+    "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 5,
+  "starting_bonuses": [
+   {
+    "empire_progression_slug": "war_slaves"
+   }
+  ],
+  "icon": "0000048D000001D7"
+ },
+ {
+  "starting_bonuses": [
+   {
+    "description": "Start with an extra Battle Mage Unit or Support Unit."
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<arcana></arcana> Astral Affinity"
+   }
+  ],
+  "biography_description": "A people who have embraced magic to a degree few can match, gaining more than most from spells, but becoming dependent on them in turn.",
+  "lore_description": "They have embraced magic to a degree few can match, gaining more than most from its prowess... but becoming dependent on its marvel in return.",
+  "point_cost": 1,
+  "id": "mana_addicts",
+  "name": "Mana Addicts",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "All <hyperlink>Units</hyperlink> gain Attunement: Mana Addicted."
+   },
+   {
+    "name": "Provinces with Mana resource node grant + 10 city stability"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 4,
+  "icon": "910A64F2000000E2"
+ },
+ {
+  "starting_bonuses": [
+   {
+    "description": "Start with an extra tier 3 <hyperlink>Unit</hyperlink>."
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<matter></matter> Materium Affinity"
+   }
+  ],
+  "biography_description": "They hold artisans in high regard. Every mason or thatcher is an artist in their own right, given the time and resources needed to work their art.",
+  "lore_description": "They demand perfection of their artisans, taking their time to build marvels like no other.",
+  "point_cost": 1,
+  "id": "perfectionist_artisans",
+  "name": "Perfectionist Artisans",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "City Structures cost 20% more <structureprod></structureprod> Production but grant +1 <happiness></happiness> City Stability and +1 <gold></gold> Gold in addition to their normal effects."
+   },
+   {
+    "name": "Racial <hyperlink>Unit tier</hyperlink> 3 have +1 Rank"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 2,
+  "icon": "910A64F2000000D8"
+ },
+ {
+  "starting_bonuses": [
+   {
+    "description": "Start with a <hyperlink>Magic Material</hyperlink> nearby."
+   }
+  ],
+  "affinities": [
+   {
+    "name": "1<nature></nature> Nature Affinity"
+   }
+  ],
+  "biography_description": "They are fascinated by rare materials and spend large parts of their lives collecting and studying them.",
+  "lore_description": "They are fascinated by rare materials and spend large parts of their lives collecting and studying them.",
+  "point_cost": 1,
+  "id": "talented_collectors",
+  "name": "Talented Collectors",
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Cities</hyperlink> gain +5 <gold></gold> <hyperlink>Gold</hyperlink>, <mana></mana> <hyperlink>Mana</hyperlink>, <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>, <food></food> <hyperlink>Food</hyperlink>, <structureprod></structureprod> <hyperlink>Production</hyperlink>, and <unitprod></unitprod> <hyperlink>Draft</hyperlink> for each <hyperlink>Magic Material</hyperlink> in their <hyperlink>Domain</hyperlink>."
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 3,
+  "icon": "910A64F2000000CF"
+ },
+ {
+  "affinities": [
+   {
+    "name": "1<order></order> Order Affinity"
+   }
+  ],
+  "biography_description": "They value and cultivate good relationships with their vassals.",
+  "lore_description": "They value and cultivate good relationships with their vassals, raising their banners in times of war.",
+  "point_cost": 1,
+  "id": "bannerlords",
+  "name": "Bannerlords",
+  "incompatible_society_traits": [
+   {
+    "name": "Chosen Destroyers <evilact></evilact>"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Rally of the Lieges</hyperlink> occur twice as often"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 6,
+  "starting_bonuses": [
+   {
+    "description": "Start with the nearest <minorcity></minorcity><hyperlink>Free City</hyperlink> revealed and gain +25 <hyperlink><allegiance></allegiance>Allegiance</hyperlink> with them."
+   }
+  ],
+  "icon": "910A64F2000000C8"
+ },
+ {
+  "affinities": [
+   {
+    "name": "1<chaos></chaos> Chaos Affinity"
+   },
+   {
+    "name": "-10<reputation4></reputation4> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "biography_description": "They are warmongers and destroyers, choosing violence over diplomacy any time they can.",
+  "lore_description": "They are warmongers and destroyers, choosing violence over diplomacy any time they can.",
+  "point_cost": 1,
+  "id": "chosen_destroyers__evilact__",
+  "name": "Chosen Destroyers <evilact></evilact>",
+  "incompatible_society_traits": [
+   {
+    "name": "Chosen Uniters <goodact></goodact>"
+   },
+   {
+    "name": "Devotees of Good <goodact></goodact>"
+   },
+   {
+    "name": "Adept Settlers"
+   },
+   {
+    "name": "Imperialists"
+   },
+   {
+    "name": "Keepers of Knowledge <goodact></goodact>"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Razing cities grant a permanent +40 <gold></gold> <hyperlink>Gold</hyperlink>, +40 <mana></mana> <hyperlink>Mana</hyperlink>, and +40<knowledge></knowledge> <hyperlink>Knowledge</hyperlink> income for every 3 <population></population> <hyperlink>Population</hyperlink> of the city that was razed."
+   },
+   {
+    "name": "Can not obtain new <hyperlink>Cities</hyperlink> and conquered cities can only be razed."
+   },
+   {
+    "name": "Suffer -300 <hyperlink>Relations</hyperlink> with all <minorcity></minorcity><hyperlink>Free Cities</hyperlink> and -300 <hyperlink>Empire Relations</hyperlink> with all other <hyperlink>Empires</hyperlink>"
+   },
+   {
+    "name": "-10 <evilact></evilact> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 5,
+  "icon": "910A64F2000000BB"
+ },
+ {
+  "affinities": [
+   {
+    "name": "1<shadow></shadow> Shadow Affinity"
+   }
+  ],
+  "biography_description": "They know when to flatter and when to extort, elevating intrigue itself to a lucrative art.",
+  "lore_description": "They know when to flatter and when to extort, elevating intrigue itself to a lucrative art.",
+  "point_cost": 1,
+  "id": "silver_tongued",
+  "name": "Silver Tongued",
+  "incompatible_society_traits": [
+   {
+    "name": "Chosen Destroyers <evilact></evilact>"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "<hyperlink>Pronouncements</hyperlink> cost -50% less"
+   },
+   {
+    "name": "<hyperlink>Trade</hyperlink> deals with <minorcity></minorcity><hyperlink>Free Cities</hyperlink> cost you -100% resources (Cost increases from other factors still apply!). "
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 1,
+  "starting_bonuses": [
+   {
+    "description": "Start with an extra Scout Unit."
+   },
+   {
+    "empire_progression_slug": "court_of_whispers"
+   }
+  ],
+  "icon": "910A64F20000009E"
+ },
+ {
+  "affinities": [
+   {
+    "name": "1<nature></nature> Nature Affinity"
+   },
+   {
+    "name": "10<reputation4></reputation4> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "biography_description": "",
+  "lore_description": "A society of people that worship the sanctity of Nature and would do anything to protect it.",
+  "point_cost": 10,
+  "id": "guardians_of_nature__goodact__",
+  "name": "Guardians of Nature <goodact></goodact>",
+  "incompatible_society_traits": [
+   {
+    "name": "Scions of Evil <evilact></evilact>"
+   },
+   {
+    "name": "Imperialists"
+   }
+  ],
+  "screen_description": "",
+  "effect_descriptions": [
+   {
+    "name": "Conduit province improvements yield +3 <food></food> Food"
+   },
+   {
+    "name": "Animals have +1 Rank"
+   },
+   {
+    "name": "+10 <goodact></goodact> <hyperlink>Alignment</hyperlink>"
+   }
+  ],
+  "enabled": true,
+  "front_end": true,
+  "type": "society",
+  "display_order": 0,
+  "starting_bonuses": [
+   {
+    "description": "Start with extra Tier 2 Animal unit"
+   }
+  ],
+  "icon": "910A64F20000006C"
  }
 ]

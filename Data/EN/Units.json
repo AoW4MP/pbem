@@ -587,7 +587,7 @@
     "slug": "0000049700001683"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000004C6000001F5"
@@ -1108,7 +1108,7 @@
     "slug": "0000039c0000061d"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "heavy_melee_charge_strike_(giants)_ability_000004C000000519"
@@ -1344,6 +1344,9 @@
     "slug": "000003eb000004c4"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "0000041b000019e0"
    }
   ],
@@ -1450,7 +1453,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000004C0000004E9"
@@ -1786,7 +1789,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004A50000000B"
@@ -1884,7 +1887,7 @@
     "slug": "00000497000006c9"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004A200000056"
@@ -1995,7 +1998,7 @@
     "slug": "00000497000007ca"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "misty_strike_ability_000004A20000002E"
@@ -2097,7 +2100,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004A200000019"
@@ -2306,7 +2309,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004970000359A"
@@ -2411,7 +2414,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "shoot_bow_ability_000004970000339B"
@@ -2510,7 +2513,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "flyby_melee_charge_ability_0000049700002D02"
@@ -2608,7 +2611,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "celestial_griffon_melee_strike_ability_0000049700002CF8"
@@ -3496,6 +3499,12 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -3677,7 +3686,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000004970000248B"
@@ -4478,6 +4487,12 @@
     "slug": "0000049700002667"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -4567,6 +4582,12 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -4654,6 +4675,12 @@
    },
    {
     "slug": "0000041b00000baf"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -4926,7 +4953,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049700000DE0"
@@ -5132,7 +5159,7 @@
     "slug": "00000493000003a2"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "flesh_explosion_ability_0000049700000D8E"
@@ -5456,7 +5483,7 @@
     "slug": "00000497000006dc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_00000497000006A2"
@@ -5570,7 +5597,7 @@
     "slug": "00000497000006d6"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_00000497000006A1"
@@ -5684,7 +5711,7 @@
     "slug": "00000497000006d0"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_00000497000006A0"
@@ -5795,7 +5822,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049700000257"
@@ -6029,6 +6056,9 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -6123,7 +6153,7 @@
     "slug": "000003e300006546"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_0000049000002900"
@@ -6252,7 +6282,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_00000490000028FF"
@@ -10337,7 +10367,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 80,
   "description": "",
   "armor": 2,
@@ -11743,7 +11773,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004900000091E"
@@ -12183,7 +12213,7 @@
     "slug": "000004970000024f"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004900000042B"
@@ -12297,7 +12327,7 @@
     "slug": "00000497000003ab"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000004900000042A"
@@ -12408,7 +12438,7 @@
     "slug": "00000497000003a3"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000429"
@@ -12515,7 +12545,7 @@
     "slug": "000003e300004814"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_0000049000000428"
@@ -12626,7 +12656,7 @@
     "slug": "00000497000003a9"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000427"
@@ -12740,7 +12770,7 @@
     "slug": "00000497000007ca"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000426"
@@ -12857,7 +12887,7 @@
     "slug": "000003e3000072a5"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_primal_mammoth_ability_0000049000000424"
@@ -16874,7 +16904,7 @@
     "slug": "000003e3000072a5"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_(elephant_mammoth_only)_00000490000002C1"
@@ -16976,7 +17006,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_(elephant_mammoth_only)_00000490000002C0"
@@ -17278,7 +17308,7 @@
     "slug": "000003e3000072a9"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000027"
@@ -17373,7 +17403,7 @@
     "slug": "000003e3000072a5"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000026"
@@ -17466,7 +17496,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000049000000025"
@@ -17834,6 +17864,12 @@
     "slug": "000003e300005582"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -17933,6 +17969,12 @@
    },
    {
     "slug": "000003e300005582"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -18036,6 +18078,12 @@
     "slug": "000003e300005582"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -18135,6 +18183,12 @@
    },
    {
     "slug": "000003e300005582"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -18238,6 +18292,12 @@
     "slug": "000003e300005582"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -18337,6 +18397,12 @@
    },
    {
     "slug": "000003e300005582"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -18440,6 +18506,9 @@
   "primary_passives": [
    {
     "slug": "0000048d000012d5"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "abilities": [
@@ -18514,6 +18583,9 @@
    },
    {
     "slug": "000003e300004c8a"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "abilities": [
@@ -18765,6 +18837,9 @@
    },
    {
     "slug": "000003eb00000425"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "abilities": [
@@ -18775,7 +18850,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 70,
   "armor": 2,
   "resistance": 2,
@@ -18842,6 +18917,9 @@
    },
    {
     "slug": "000003eb00000425"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "abilities": [
@@ -18852,7 +18930,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 70,
   "armor": 2,
   "resistance": 2,
@@ -18908,6 +18986,12 @@
    },
    {
     "slug": "0000041b00000baf"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -19262,6 +19346,9 @@
   "primary_passives": [
    {
     "slug": "000003e10000139d"
+   },
+   {
+    "slug": "0000039f000018d5"
    }
   ],
   "mp": 32,
@@ -19689,7 +19776,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_blast_(single)_ability_000004890000137C"
@@ -19917,7 +20004,7 @@
     "slug": "000004970000243b"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "savage_charge_ability_000004890000137A"
@@ -20540,7 +20627,7 @@
     "slug": "000003eb000004c4"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_spike_ability_0000048900001231"
@@ -20675,7 +20762,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000048900001230"
@@ -20912,7 +20999,7 @@
     "slug": "000003eb000004c4"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_blast_(single)_ability_0000048900001228"
@@ -21029,7 +21116,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_spike_ability_0000048900001227"
@@ -21377,7 +21464,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_0000048900001224"
@@ -21482,7 +21569,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_single_strike_(base)_ability_000004890000119C"
@@ -21974,7 +22061,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000048900000A0B"
@@ -22474,7 +22561,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "hp": 55,
   "armor": 1,
   "resistance": 1,
@@ -22640,7 +22727,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000047A000001FA"
@@ -22738,10 +22825,13 @@
     "slug": "000003eb00000425"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000047A000001E2"
@@ -22818,6 +22908,9 @@
   "primary_passives": [
    {
     "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -23138,7 +23231,7 @@
     "slug": "000003e300006519"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_0000046400000058"
@@ -23666,7 +23759,7 @@
     "slug": "000003e3000049bf"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_(infernal_elephant_only)_0000043D000004FE"
@@ -23890,7 +23983,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00001AB3"
@@ -23987,7 +24080,7 @@
     "slug": "0000041b000019e0"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00001A56"
@@ -24160,6 +24253,9 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -24178,7 +24274,7 @@
    }
   ],
   "description": "A defensive structure that heals and buffs nearby friendly Undead units.",
-  "cost": "160<unitprod></unitprod> 110<gold></gold> ",
+  "cost": "240<unitprod></unitprod> 160<gold></gold> ",
   "resid": 4514010634335,
   "medal_rewards_3": [
    {
@@ -24254,7 +24350,7 @@
     "slug": "000003eb00000425"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "mind_strike_ability_0000041B000017AF"
@@ -24355,7 +24451,7 @@
     "slug": "000003e300004814"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_0000041B00001492"
@@ -24457,6 +24553,12 @@
    },
    {
     "slug": "0000041b00000baf"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -24644,7 +24746,7 @@
     "slug": "000003e3000071f0"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "detonate_ability_0000041B0000117A"
@@ -25025,6 +25127,9 @@
    },
    {
     "slug": "000003e3000071f0"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "mp": 32,
@@ -25112,7 +25217,7 @@
     "slug": "0000049700000021"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00001009"
@@ -25133,7 +25238,7 @@
    }
   ],
   "description": "Summon a {GLOBAL.UNITS.WIND_RAGER_UNIT.Hyperlink}, a fast and disruptive {GLOBAL.PROPERTIES.FIGHTER.Hyperlink}",
-  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
   "resid": 4514010632201,
   "medal_rewards_3": [
    {
@@ -25213,10 +25318,10 @@
     "slug": "000003e10000139d"
    },
    {
-    "slug": "000003eb000006ac"
+    "slug": "000003eb00000425"
    },
    {
-    "slug": "000003eb00000425"
+    "slug": "0000041500000103"
    },
    {
     "slug": "000003fe0000007f"
@@ -25243,7 +25348,7 @@
    }
   ],
   "description": "",
-  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
   "resid": 4514010631826,
   "medal_rewards_3": [
    {
@@ -25262,7 +25367,7 @@
   "upkeep": "12<gold></gold> ",
   "id": "floral_stinger",
   "name": "Floral Stinger",
-  "hp": 80,
+  "hp": 70,
   "armor": 1,
   "resistance": 1,
   "medal_rewards_2": [
@@ -25434,6 +25539,9 @@
    },
    {
     "slug": "000003e10000139d"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000049700001683"
@@ -25741,7 +25849,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00000AE0"
@@ -26322,7 +26430,7 @@
     "slug": "000003e300004814"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00000569"
@@ -26423,7 +26531,7 @@
     "slug": "000003e300004814"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_0000041B00000568"
@@ -26518,7 +26626,7 @@
     "slug": "0000048d00001010"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "demoralizing_charge_ability_0000041B0000048F"
@@ -26603,7 +26711,7 @@
     "slug": "0000041b000003b8"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "magic_blast_(single)_ability_0000041B000003A5"
@@ -26712,7 +26820,7 @@
    }
   ],
   "description": "",
-  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
   "resid": 4514010628985,
   "medal_rewards_3": [
    {
@@ -26793,6 +26901,9 @@
    },
    {
     "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -26881,6 +26992,9 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    }
   ],
@@ -26964,6 +27078,9 @@
    },
    {
     "slug": "000003870000001b"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -27129,9 +27246,12 @@
    },
    {
     "slug": "0000045e00000664"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC00002919"
@@ -27698,10 +27818,13 @@
     "slug": "000003eb00000425"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC0000217B"
@@ -27819,7 +27942,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC00001E55"
@@ -27944,7 +28067,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003EC00001891"
@@ -28042,7 +28165,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC00001890"
@@ -28130,7 +28253,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000003EC0000188F"
@@ -28243,7 +28366,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC00001885"
@@ -28939,7 +29062,7 @@
     "slug": "000003e300006124"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003EC00000F5B"
@@ -29443,6 +29566,9 @@
  {
   "primary_passives": [
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003e30000665c"
    },
    {
@@ -29532,6 +29658,9 @@
   "primary_passives": [
    {
     "slug": "000003e300004c8a"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "mp": 32,
@@ -29966,7 +30095,7 @@
     "slug": "0000049700000533"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000003EC000008CD"
@@ -30064,7 +30193,7 @@
     "slug": "0000049700000533"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_blast_(single)_ability_000003EC000008CB"
@@ -30165,7 +30294,7 @@
     "slug": "000004c0000006ba"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_blast_(single)_ability_000003EC000008C9"
@@ -30355,6 +30484,9 @@
    },
    {
     "slug": "0000041b00000baf"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -30676,7 +30808,7 @@
     "slug": "000003fe000008c4"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000003E3000072AC"
@@ -30899,7 +31031,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 80,
   "armor": 2,
   "resistance": 2,
@@ -30954,6 +31086,12 @@
    },
    {
     "slug": "0000049700000f8f"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "000003e3000065da"
    }
   ],
   "mp": 32,
@@ -31063,7 +31201,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006EFB"
@@ -31155,7 +31293,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006EF9"
@@ -31247,7 +31385,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006EF7"
@@ -31342,7 +31480,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006EE3"
@@ -31453,7 +31591,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006EE0"
@@ -31579,7 +31717,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006BEC"
@@ -31708,7 +31846,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006BD8"
@@ -31819,7 +31957,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300006B9C"
@@ -31898,7 +32036,7 @@
  },
  {
   "primary_passives": [],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "shoot_bow_ability_000003E3000064C1"
@@ -32230,7 +32368,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E3000062C1"
@@ -32319,6 +32457,9 @@
   "primary_passives": [
    {
     "slug": "0000045e00000664"
+   },
+   {
+    "slug": "910a64f2000001b3"
    },
    {
     "slug": "0000041b00000cbc"
@@ -32539,6 +32680,9 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -32625,6 +32769,9 @@
    },
    {
     "slug": "0000041b00000baf"
+   },
+   {
+    "slug": "0000039f000018d5"
    },
    {
     "slug": "0000048d00000206"
@@ -32715,7 +32862,7 @@
     "slug": "000003eb000004c4"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000003E3000060E4"
@@ -33373,9 +33520,6 @@
   ],
   "medal_rewards_5": [
    {
-    "slug": "0000048b00000c07"
-   },
-   {
     "slug": "0000048b00000c6e"
    }
   ],
@@ -33674,7 +33818,7 @@
    }
   ],
   "description": "",
-  "cost": "140<unitprod></unitprod> 100<mana></mana> ",
+  "cost": "80<unitprod></unitprod> 60<mana></mana> ",
   "resid": 4273492483608,
   "medal_rewards_3": [
    {
@@ -34150,7 +34294,7 @@
  },
  {
   "primary_passives": [],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E300005CAF"
@@ -34343,6 +34487,9 @@
   "primary_passives": [
    {
     "slug": "0000045e00000664"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "mp": 32,
@@ -34420,7 +34567,7 @@
     "slug": "000003e3000064a5"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "weak_point_shot_ability_000003E300005C2B"
@@ -34508,6 +34655,9 @@
     "slug": "0000041b00000baf"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -34529,7 +34679,7 @@
    }
   ],
   "description": "",
-  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
   "resid": 4273492483035,
   "medal_rewards_3": [
    {
@@ -34782,13 +34932,16 @@
     "slug": "000003eb00000425"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003e3000072a5"
    },
    {
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300005B27"
@@ -34885,7 +35038,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300005B26"
@@ -34992,10 +35145,13 @@
     "slug": "000004970000067c"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300005AC4"
@@ -35107,7 +35263,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300005AB0"
@@ -35320,7 +35476,7 @@
     "slug": "000004970000067c"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E300005A2D"
@@ -35405,7 +35561,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "boat_ballista_ability_000003E300005883"
@@ -35490,7 +35646,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_(ram_warship_only)_000003E300005880"
@@ -35779,7 +35935,7 @@
     "slug": "000003e300004c8f"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 80,
   "armor": 6,
   "resistance": 2,
@@ -35866,7 +36022,7 @@
     "slug": "000003e300004c8f"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 80,
   "armor": 6,
   "resistance": 2,
@@ -35956,7 +36112,7 @@
     "slug": "000003e300004c8f"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 80,
   "armor": 6,
   "resistance": 2,
@@ -37080,7 +37236,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 90,
   "armor": 3,
   "resistance": 3,
@@ -39297,7 +39453,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "hp": 55,
   "armor": 1,
   "resistance": 1,
@@ -39471,7 +39627,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 110,
   "armor": 4,
   "resistance": 4,
@@ -39561,7 +39717,7 @@
     "slug": "0000034500000469"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "hp": 110,
   "armor": 4,
   "resistance": 4,
@@ -40312,7 +40468,7 @@
     "slug": "0000049700000533"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "magic_bolts_ability_000003E3000052C5"
@@ -40410,7 +40566,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E3000052C2"
@@ -40428,7 +40584,7 @@
    }
   ],
   "description": "",
-  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "cost": "80<unitprod></unitprod> 60<gold></gold> ",
   "resid": 4273492480706,
   "medal_rewards_3": [
    {
@@ -40641,7 +40797,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004F60"
@@ -40751,7 +40907,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004F5F"
@@ -40876,7 +41032,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004E76"
@@ -40973,6 +41129,9 @@
  },
  {
   "primary_passives": [
+   {
+    "slug": "910a64f2000001b3"
+   },
    {
     "slug": "0000041b00000cbc"
    },
@@ -41351,7 +41510,7 @@
     "slug": "0000041b00000cbc"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A3B"
@@ -41458,7 +41617,7 @@
     "slug": "000004970000067c"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A3A"
@@ -41549,7 +41708,7 @@
     "slug": "000004970000067c"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A35"
@@ -41570,7 +41729,7 @@
    }
   ],
   "description": "",
-  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
+  "cost": "300<unitprod></unitprod> 200<gold></gold> ",
   "resid": 4273492478517,
   "medal_rewards_3": [
    {
@@ -41653,7 +41812,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A22"
@@ -41753,6 +41912,9 @@
     "slug": "0000045e00000664"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
@@ -41843,7 +42005,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A1F"
@@ -41943,6 +42105,9 @@
     "slug": "0000045e00000664"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
@@ -42033,7 +42198,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A0A"
@@ -42139,10 +42304,13 @@
     "slug": "0000045e00000664"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A09"
@@ -42244,7 +42412,7 @@
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E300004A01"
@@ -42348,10 +42516,13 @@
     "slug": "0000045e00000664"
    },
    {
+    "slug": "910a64f2000001b3"
+   },
+   {
     "slug": "000003fe0000007f"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003E3000049FD"
@@ -42628,6 +42799,12 @@
     "slug": "000003e300005582"
    },
    {
+    "slug": "0000039f000018d5"
+   },
+   {
+    "slug": "0000039f000018d5"
+   },
+   {
     "slug": "0000048d00000206"
    },
    {
@@ -42729,7 +42906,7 @@
     "slug": "0000038700001864"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E300004447"
@@ -42994,6 +43171,9 @@
   "primary_passives": [
    {
     "slug": "0000045e00000664"
+   },
+   {
+    "slug": "910a64f2000001b3"
    }
   ],
   "mp": 32,
@@ -43080,7 +43260,7 @@
     "slug": "0000039c0000061d"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E100001190"
@@ -43101,7 +43281,7 @@
    }
   ],
   "description": "",
-  "cost": "140<unitprod></unitprod> 100<gold></gold> ",
+  "cost": "220<unitprod></unitprod> 140<gold></gold> ",
   "resid": 4264902529424,
   "medal_rewards_3": [
    {
@@ -43364,7 +43544,7 @@
     "slug": "0000045e00000664"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E100001160"
@@ -43483,7 +43663,7 @@
     "slug": "000003e3000049bf"
    }
   ],
-  "mp": 48,
+  "mp": 40,
   "abilities": [
    {
     "slug": "melee_charge_strike_(base)_ability_000003E100001153"
@@ -43680,7 +43860,7 @@
     "slug": "000003e300005e31"
    }
   ],
-  "mp": 40,
+  "mp": 36,
   "abilities": [
    {
     "slug": "melee_strike_(base)_ability_000003BD00002904"
@@ -43779,6 +43959,9 @@
   "primary_passives": [
    {
     "slug": "0000040d0000001d"
+   },
+   {
+    "slug": "910a64f2000001b3"
    },
    {
     "slug": "0000041b00000cbc"

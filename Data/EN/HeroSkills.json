@@ -869,29 +869,36 @@
     "resid": 5003636903738
    }
   ],
+  "abilities": [
+   {
+    "slug": "000003e300006c1f"
+   }
+  ],
   "resid": 4273492487197,
   "tree_name": "Dragon Lord",
   "tree_pos_y": 150.0,
-  "DLC": "DRAGONLORDS ",
-  "description": "The Tail Swipe ability now:<bulletlist><bullet>Displaces units up to 2 hexes.</bullet><bullet>Has a base 60% of inflicting Stunned for 1<turn></turn> <hyperlink>Turn</hyperlink>.</bullet></bulletlist>",
   "required_skills": [
    {
     "resid": 4273492487179
    }
-  ]
+  ],
+  "DLC": "DRAGONLORDS "
  },
  {
   "group_name": "Dragon Lord - Hero Skill Group",
   "icon": "000003E300006C17",
   "type": "normal",
+  "abilities": [
+   {
+    "slug": "000003e300006c18"
+   }
+  ],
   "resid": 4273492487190,
   "tree_name": "Dragon Lord",
   "name": "Quickened Breath",
   "tree_pos_x": 150.0,
   "tree_pos_y": 250.0,
   "id": "hs_quickened_breath",
-  "DLC": "DRAGONLORDS ",
-  "description": "Cooldown of the breath attack is reduced by 1 <turn></turn>.",
   "required_skills": [
    {
     "resid": 4273492487365
@@ -902,7 +909,8 @@
    {
     "resid": 4273492487335
    }
-  ]
+  ],
+  "DLC": "DRAGONLORDS "
  },
  {
   "group_name": "Dragon Lord - Hero Skill Group",
@@ -6132,7 +6140,7 @@
   "icon": "0000048D00000F42",
   "type": "normal",
   "name": "Coordinated Command",
-  "tree_pos_x": 550.0,
+  "tree_pos_x": 646.0,
   "id": "hs_champion_coordinated_command",
   "excluded_skills": [
    {
@@ -6146,7 +6154,7 @@
   ],
   "resid": 5003636903745,
   "tree_name": "Mortal Champion",
-  "tree_pos_y": 150.0,
+  "tree_pos_y": 156.0,
   "required_skills": [
    {
     "resid": 4273492481388
@@ -6158,7 +6166,7 @@
   "icon": "0000048D00000F40",
   "type": "normal",
   "name": "Decisive Command",
-  "tree_pos_x": 450.0,
+  "tree_pos_x": 545.0,
   "id": "hs_champion_decisive_command",
   "excluded_skills": [
    {
@@ -6172,7 +6180,7 @@
   ],
   "resid": 5003636903742,
   "tree_name": "Mortal Champion",
-  "tree_pos_y": 150.0,
+  "tree_pos_y": 155.0,
   "required_skills": [
    {
     "resid": 4273492481388
@@ -6233,8 +6241,8 @@
   "resid": 5003636903338,
   "tree_name": "Mortal Champion",
   "name": "Foraging Training",
-  "tree_pos_x": 350.0,
-  "tree_pos_y": 50.0,
+  "tree_pos_x": 447.0,
+  "tree_pos_y": 53.0,
   "id": "hs_foraging_training"
  },
  {
@@ -6256,7 +6264,7 @@
   ],
   "resid": 5003636903333,
   "tree_name": "Mortal Champion",
-  "tree_pos_y": 50.0
+  "tree_pos_y": 49.0
  },
  {
   "group_name": "Origin: Champion - Hero Skill Group",
@@ -6291,8 +6299,8 @@
   "resid": 4514010630649,
   "tree_name": "Mortal Champion",
   "name": "Experienced Leader",
-  "tree_pos_x": 250.0,
-  "tree_pos_y": 50.0,
+  "tree_pos_x": 251.0,
+  "tree_pos_y": 52.0,
   "id": "hs_experienced_leader"
  },
  {
@@ -6307,14 +6315,9 @@
   "resid": 4514010630633,
   "tree_name": "Mortal Champion",
   "name": "Logistics Training",
-  "tree_pos_x": 250.0,
-  "tree_pos_y": 150.0,
-  "id": "hs_logistics_training",
-  "required_skills": [
-   {
-    "resid": 4514010630649
-   }
-  ]
+  "tree_pos_x": 346.0,
+  "tree_pos_y": 52.0,
+  "id": "hs_logistics_training"
  },
  {
   "group_name": "Origin: Champion - Hero Skill Group",
@@ -6328,7 +6331,7 @@
   "resid": 4273492481388,
   "tree_name": "Mortal Champion",
   "name": "Command",
-  "tree_pos_x": 500.0,
+  "tree_pos_x": 600.0,
   "tree_pos_y": 50.0,
   "id": "hs_champion_command"
  },
@@ -6344,8 +6347,8 @@
   "resid": 4273492481364,
   "tree_name": "Mortal Champion",
   "name": "Endurance Training",
-  "tree_pos_x": 350.0,
-  "tree_pos_y": 150.0,
+  "tree_pos_x": 447.0,
+  "tree_pos_y": 155.0,
   "id": "hs_endurance_training",
   "required_skills": [
    {
@@ -8182,7 +8185,7 @@
   "tree_name": "Giant Kings",
   "tree_pos_y": 150.0,
   "DLC": "GIANTKINGS ",
-  "description": "Hurl Ice Boulder gains:<bulletlist><bullet>+10 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Inflicts:<bulletlist></bullet><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
+  "description": "Hurl Ice Boulder Inflicts:<bulletlist><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
   "required_skills": [
    {
     "resid": 5046586583019
@@ -8292,7 +8295,7 @@
   "tree_pos_y": 150.0,
   "id": "hs_impactful_animated_weapon_frost",
   "DLC": "GIANTKINGS ",
-  "description": "When conjuring the Animated Weapon, deal 10 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> to adjacent enemies.",
+  "description": "When conjuring the Animated Weapon, deal 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> to adjacent enemies.",
   "required_skills": [
    {
     "resid": 5046586582508
@@ -9500,7 +9503,7 @@
   "tree_name": "Giant Kings",
   "tree_pos_y": 150.0,
   "DLC": "GIANTKINGS ",
-  "description": "Hurl Lightning gains:<bulletlist><bullet>+10 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>Inflicts:<bulletlist></bullet><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
+  "description": "Hurl Lightning Inflicts:<bulletlist><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
   "required_skills": [
    {
     "resid": 5046586583020
@@ -9535,7 +9538,7 @@
   "tree_pos_y": 150.0,
   "id": "hs_impactful_animated_weapon_storm",
   "DLC": "GIANTKINGS ",
-  "description": "When conjuring the Animated Weapon, deal 10 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> to adjacent enemies.",
+  "description": "When conjuring the Animated Weapon, deal 20 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink> to adjacent enemies.",
   "required_skills": [
    {
     "resid": 5046586578726
@@ -9937,7 +9940,7 @@
   "tree_pos_y": 150.0,
   "id": "hs_impactful_animated_weapon_rock",
   "DLC": "GIANTKINGS ",
-  "description": "When conjuring the Animated Weapon, deal 10 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> to adjacent enemies.",
+  "description": "When conjuring the Animated Weapon, deal 20 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> to adjacent enemies.",
   "required_skills": [
    {
     "resid": 5046586578733
@@ -10183,7 +10186,7 @@
   "tree_name": "Giant Kings",
   "tree_pos_y": 150.0,
   "DLC": "GIANTKINGS ",
-  "description": "Hurl Boulder gains:<bulletlist><bullet>+10 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>Inflicts:<bulletlist></bullet><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
+  "description": "Hurl Boulder Inflicts:<bulletlist><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
   "required_skills": [
    {
     "resid": 5046586578641
@@ -10317,7 +10320,7 @@
   "tree_name": "Giant Kings",
   "tree_pos_y": 150.0,
   "DLC": "GIANTKINGS ",
-  "description": "Hurl Flame gains:<bulletlist><bullet>+10 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>Inflicts:<bulletlist></bullet><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
+  "description": "Hurl Flame Inflicts:<bulletlist><bullet>2 Sundered Defense for 3 <turn></turn> Turns.</bullet><bullet>2 Sundered Resistance for 3 <turn></turn> Turns.</bullet></bulletlist></bulletlist>",
   "required_skills": [
    {
     "resid": 5046586583018
@@ -10352,7 +10355,7 @@
   "tree_pos_y": 150.0,
   "id": "hs_impactful_animated_weapon_fire",
   "DLC": "GIANTKINGS ",
-  "description": "When conjuring the Animated Weapon, deal 10 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink> to adjacent enemies.",
+  "description": "When conjuring the Animated Weapon, deal 20 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink> to adjacent enemies.",
   "required_skills": [
    {
     "resid": 5046586578740
@@ -13327,6 +13330,119 @@
     "resid": 5222680234413
    }
   ]
+ },
+ {
+  "abilities": [
+   {
+    "slug": "0000041b00001ab9"
+   }
+  ],
+  "resid": -7995467197898030023,
+  "id": "2captains_axe_and_shield_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F20000043A",
+  "type": "normal",
+  "name": "Inspiring Presence"
+ },
+ {
+  "resid": -7995467197898030032,
+  "id": "2hunters_crossbow_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F200000431",
+  "type": "normal",
+  "name": "Giant Slayer",
+  "description": "This unit deals +% damage to Large Target units."
+ },
+ {
+  "abilities": [
+   {
+    "slug": "000003e100001533"
+   }
+  ],
+  "resid": -7995467197898030041,
+  "id": "2veterans_pike_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F200000428",
+  "type": "normal",
+  "name": "Watchful"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "quake_ability_000003BD00002895"
+   }
+  ],
+  "resid": -7995467197898030050,
+  "id": "2geomancer_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F20000041F",
+  "type": "normal",
+  "name": "Quake"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "raise_undead_ability_(necromancer)_000003BD00002895"
+   }
+  ],
+  "resid": -7995467197898030059,
+  "id": "2necromancer_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F200000416",
+  "type": "normal",
+  "name": "Raise Undead"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "freezing_blast_ability_000003BD00002895"
+   }
+  ],
+  "resid": -7995467197898030068,
+  "id": "2cryomancer_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F20000040D",
+  "type": "normal",
+  "name": "Freezing Blast"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "sap_strength_ability_000003BD00002895"
+   }
+  ],
+  "resid": -7995467197898030077,
+  "id": "2druid_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F200000404",
+  "type": "normal",
+  "name": "Sap Strength"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "000003e3000061fa"
+   }
+  ],
+  "resid": -7995467197898030092,
+  "id": "2barbaric_warlord_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F2000003F5",
+  "type": "normal",
+  "name": "Berserker's Rage"
+ },
+ {
+  "abilities": [
+   {
+    "slug": "000003e3000060d6"
+   }
+  ],
+  "resid": -7995467197898030099,
+  "id": "2wk_knight_hero_skill_normal",
+  "group_name": "2Pantheon Hero Skills",
+  "icon": "910A64F2000003EE",
+  "type": "normal",
+  "name": "Intimidating Aura"
  },
  {
   "abilities": [

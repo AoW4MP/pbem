@@ -8,22 +8,22 @@
   "icon": "000004AC00000078",
   "ambitions": [
    {
-    "screen_description": "Personally slay a unit of legendary rank in combat",
+    "screen_description": "Personally slay 3 Tier 4+ unit of soldier+ rank in combat",
     "type": "major",
     "reward_renown": 100,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Rank Slayer",
-      "screen_description": "Deal +10% damage for each rank the target has.",
-      "icon": "000004A600000941"
+      "name": "Gloryseeker",
+      "screen_description": "Non-hero units in army get Rank Slayer",
+      "icon": "910A64F200000570"
      }
     ]
    },
    {
-    "screen_description": "Personally slay a unit of elite rank in combat",
+    "screen_description": "Personally slay a unit of soldier+ rank in combat",
     "type": "minor",
-    "reward_renown": 25,
+    "reward_renown": 15,
     "repeatable": true,
     "reward_properties": []
    }
@@ -68,14 +68,14 @@
   "icon": "000004AC00000074",
   "ambitions": [
    {
-    "screen_description": "Governed City has a gold income of 200+",
+    "screen_description": "Govern a city with 100+gold income for 5 turns",
     "type": "major",
     "reward_renown": 100,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Artisan Equipment",
-      "screen_description": "While army leader, all other units have:<bulletlist><bullet>+10 <hyperlink><hp></hp> Hit Points</hyperlink></bullet><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>+1 <resistance></resistance> <hyperlink>Resistance</hyperlink></bullet><bullet>+10% damage</bullet></bulletlist><br></br><br></br>This hero costs +50 <gold></gold> <hyperlink>Gold</hyperlink> <hyperlink>Unit Upkeep</hyperlink>.",
+      "screen_description": "While army leader, all other units have:<bulletlist><bullet>+10 <hyperlink><hp></hp> Hit Points</hyperlink></bullet><bullet>+10% damage</bullet></bulletlist><br></br><br></br>This hero costs +30 <gold></gold> <hyperlink>Gold</hyperlink> <hyperlink>Unit Upkeep</hyperlink>.",
       "icon": "000004A6000008FF"
      }
     ]
@@ -98,7 +98,7 @@
   "icon": "000004AC00000077",
   "ambitions": [
    {
-    "screen_description": "Governed city has 40+ Fortification Health",
+    "screen_description": "Governed city has +40 Fortification health for 5 turns",
     "type": "major",
     "reward_renown": 100,
     "repeatable": false,
@@ -113,7 +113,14 @@
    {
     "screen_description": "Win a battle in friendly territory",
     "type": "minor",
-    "reward_renown": 50,
+    "reward_renown": 75,
+    "repeatable": true,
+    "reward_properties": []
+   },
+   {
+    "screen_description": "Win a combat as a defender",
+    "type": "minor",
+    "reward_renown": 75,
     "repeatable": true,
     "reward_properties": []
    }
@@ -135,7 +142,7 @@
     "reward_properties": [
      {
       "name": "Ruler's Retinue",
-      "screen_description": "If this hero is in the same battle as your Ruler, this hero and your Ruler have +2 <defense></defense> <hyperlink>Defense</hyperlink> and +2 <resistance></resistance> <hyperlink>Resistance</hyperlink>.",
+      "screen_description": "If this hero is in the same battle as your Ruler, this hero and your Ruler have +1 <defense></defense> <hyperlink>Defense</hyperlink> and +1 <resistance></resistance> <hyperlink>Resistance</hyperlink>.",
       "icon": "000004A60000091B"
      }
     ]
@@ -158,20 +165,27 @@
   "icon": "000004AC00000073",
   "ambitions": [
    {
-    "screen_description": "Win a combat in enemy territory",
+    "screen_description": "win 2 combats in enemy territory",
     "type": "major",
     "reward_renown": 100,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Resourceful",
-      "screen_description": "While army leader, units in army have:<bulletlist><bullet>+10 <hyperlink><hp></hp> Hit Point</hyperlink> regeneration in the <hyperlink>World Map</hyperlink>.</bullet></bulletlist>",
-      "icon": "000003E100001EC5"
+      "name": "Raider",
+      "screen_description": "Non-hero units in army get Fiery Arrows and Searing Blades upgrades",
+      "icon": "910A64F200000567"
      }
     ]
    },
    {
     "screen_description": "Pillage a province",
+    "type": "minor",
+    "reward_renown": 50,
+    "repeatable": true,
+    "reward_properties": []
+   },
+   {
+    "screen_description": "Win a combat against an army with 200 less power",
     "type": "minor",
     "reward_renown": 25,
     "repeatable": true,
@@ -212,14 +226,14 @@
   "icon": "000004AC00000072",
   "ambitions": [
    {
-    "screen_description": "Hero leads a full army of Legendary rank units",
+    "screen_description": "Hero leads a full army of legendary rank units for 3 turns",
     "type": "major",
-    "reward_renown": 200,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Trainer",
-      "screen_description": "While army leader, all non-Hero units in army gain:<bulletlist><bullet>+50% <hyperlink><xp></xp> Experience</hyperlink>.</bullet></bulletlist>",
+      "screen_description": "While army leader, all non-Hero units in army gain:<bulletlist><bullet>+2 <hyperlink><xp></xp> Experience</hyperlink> per turn.</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -227,7 +241,7 @@
    {
     "screen_description": "Rank up units in this Hero's army",
     "type": "minor",
-    "reward_renown": 5,
+    "reward_renown": 10,
     "repeatable": true,
     "reward_properties": []
    }
@@ -266,14 +280,14 @@
   "icon": "000004AC00000071",
   "ambitions": [
    {
-    "screen_description": "Personally slay an undead, fiend, or umbral demon unit of Tier 4+ in combat. Combat summons do not count.",
+    "screen_description": "Personally slay 2 undead or fiend or umbral demon unit of Tier 4+ in combat. Combat summons do not count.",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Preacher",
-      "screen_description": "While army leader, units in army have:<bulletlist><bullet>Faithful</bullet><bullet>Zeal</bullet></bulletlist>",
+      "screen_description": "While army leader, non-hero units in army have:<bulletlist><bullet>Faithful</bullet><bullet>Zeal</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -296,14 +310,14 @@
   "icon": "000004AC00000070",
   "ambitions": [
    {
-    "screen_description": "Personally slay a Ruler in combat",
+    "screen_description": "Personally slay a level 5+ Ruler or Hero in combat",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Duelist",
-      "screen_description": "Against Heroes, this unit:<bulletlist><bullet>Deals +50% damage.</bullet><bullet>Has +3 <defense></defense> <hyperlink>Defense</hyperlink> and <resistance></resistance> <hyperlink>Resistance</hyperlink>.</bullet></bulletlist>",
+      "screen_description": "Against Heroes, this unit:<bulletlist><bullet>Deals +30% damage.</bullet><bullet>Has +2 <defense></defense> <hyperlink>Defense</hyperlink> and <resistance></resistance> <hyperlink>Resistance</hyperlink>.</bullet></bulletlist>",
       "icon": "000003E100001EB4"
      }
     ]
@@ -311,7 +325,7 @@
    {
     "screen_description": "Personally slay a Hero in combat",
     "type": "minor",
-    "reward_renown": 50,
+    "reward_renown": 75,
     "repeatable": true,
     "reward_properties": []
    }
@@ -327,23 +341,23 @@
   "ambitions": [
    {
     "screen_description": "Win a combat with only animal, plants and elementals units on your side",
+    "type": "minor",
+    "reward_renown": 35,
+    "repeatable": true,
+    "reward_properties": []
+   },
+   {
+    "screen_description": "Evolve or Promote a unit in this hero's army",
     "type": "major",
     "reward_renown": 100,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Druid",
-      "screen_description": "While army leader, Animal, Plant and Elemental units in army have:<bulletlist><bullet>+20 <hyperlink><hp></hp> Hit Points</hyperlink></bullet><bullet>-20% base <hyperlink>Unit Upkeep</hyperlink></bullet></bulletlist>",
+      "screen_description": "While army leader, Animal, Plant and Elemental units in army have:<bulletlist><bullet>+10 <hyperlink><hp></hp> Hit Points</hyperlink></bullet><bullet>-20% base <hyperlink>Unit Upkeep</hyperlink></bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
-   },
-   {
-    "screen_description": "Evolve or Promote a unit in this hero's army",
-    "type": "minor",
-    "reward_renown": 50,
-    "repeatable": true,
-    "reward_properties": []
    }
   ]
  },
@@ -356,22 +370,22 @@
   "icon": "000004AC0000006E",
   "ambitions": [
    {
-    "screen_description": "Clear a water infestation",
+    "screen_description": "Clear a gold level water infestation",
     "type": "major",
-    "reward_renown": 100,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Ambusher",
-      "screen_description": "While army leader, units in army have:<bulletlist><bullet>Universal Camouflage</bullet></bulletlist>",
-      "icon": "000003E100001EC5"
+      "name": "Privateer",
+      "screen_description": "At the start of water combat, summon a Tier 3 Ballista Warship unit that lasts until end of combat.",
+      "icon": "910A64F20000057C"
      }
     ]
    },
    {
     "screen_description": "Win a naval battle",
     "type": "minor",
-    "reward_renown": 35,
+    "reward_renown": 20,
     "repeatable": true,
     "reward_properties": []
    }
@@ -393,8 +407,8 @@
     "reward_properties": [
      {
       "name": "Aggressive Tactician",
-      "screen_description": "While army leader, all units in army:<bulletlist><bullet>Start combat Hastened for 3 <turn></turn> Turns.</bullet></bulletlist>",
-      "icon": "000003E100001EC5"
+      "screen_description": "Adjacent friendly units in 2 hexes get Hastened and Strengthened for 3 turns.",
+      "icon": "910A64F200000556"
      }
     ]
    },
@@ -416,22 +430,22 @@
   "icon": "000004AC0000006C",
   "ambitions": [
    {
-    "screen_description": "Win a siege battle against a free city",
+    "screen_description": "Win a siege battle against a level 3+ Free city",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Siege Master",
-      "screen_description": "Grants Siege Breaker to all units in the army.",
-      "icon": "000003FE000008C5"
+      "name": "Imperialist",
+      "screen_description": "Governed city gain +15%<gold></gold> income +20<happiness></happiness>",
+      "icon": "910A64F200000574"
      }
     ]
    },
    {
     "screen_description": "Win a battle against a free city",
     "type": "minor",
-    "reward_renown": 35,
+    "reward_renown": 50,
     "repeatable": true,
     "reward_properties": []
    }
@@ -446,7 +460,7 @@
   "icon": "000004AC0000006B",
   "ambitions": [
    {
-    "screen_description": "Clear an underground infestation",
+    "screen_description": "Clear an underground Ancient Wonder",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
@@ -455,11 +469,23 @@
       "name": "Unstoppable Leader",
       "screen_description": "All units in the army have Unstoppable Juggernaut.",
       "icon": "000004A6000008FA"
+     },
+     {
+      "name": "Demolitionist",
+      "screen_description": "Unit has:",
+      "icon": "000003E100001EB4"
      }
     ]
    },
    {
     "screen_description": "Excavate a province",
+    "type": "minor",
+    "reward_renown": 50,
+    "repeatable": true,
+    "reward_properties": []
+   },
+   {
+    "screen_description": "Clear an underground resource node",
     "type": "minor",
     "reward_renown": 25,
     "repeatable": true,
@@ -476,15 +502,15 @@
   "icon": "000004AC0000006A",
   "ambitions": [
    {
-    "screen_description": "Win a battle where 5 enemies routed",
+    "screen_description": "Win a battle where 3 enemies routed",
     "type": "major",
-    "reward_renown": 200,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Intimidating",
-      "screen_description": "Unit has:",
-      "icon": "000003E100001EB4"
+      "name": "Fearmonger",
+      "screen_description": "All non-hero units in army: When killing a unit in combat, enemies within 3 hexes are inflicted with a stack of Demoralized",
+      "icon": "910A64F200000557"
      }
     ]
    },
@@ -513,7 +539,7 @@
     "reward_properties": [
      {
       "name": "Pragmatic Leader",
-      "screen_description": "While army leader, all units in the army gain:<bulletlist><bullet>Cold Blooded</bullet><bullet>-20% base <hyperlink>Unit Upkeep</hyperlink></bullet></bulletlist>",
+      "screen_description": "While army leader, all units in the army gain:<bulletlist><bullet>Cold Blooded</bullet><bullet>-30% base <hyperlink>Unit Upkeep</hyperlink></bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -521,7 +547,7 @@
    {
     "screen_description": "Clear an infestation",
     "type": "minor",
-    "reward_renown": 50,
+    "reward_renown": 100,
     "repeatable": true,
     "reward_properties": []
    }
@@ -536,9 +562,9 @@
   "icon": "000004AC00000068",
   "ambitions": [
    {
-    "screen_description": "Fully equip with Tier 2+ items",
+    "screen_description": "Fully equip with Tier 2+ items for 5 turns",
     "type": "major",
-    "reward_renown": 200,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
@@ -551,7 +577,7 @@
    {
     "screen_description": "Have an item equipped for 3 turns",
     "type": "minor",
-    "reward_renown": 3,
+    "reward_renown": 5,
     "repeatable": true,
     "reward_properties": []
    }
@@ -566,14 +592,14 @@
   "icon": "000004AC00000067",
   "ambitions": [
    {
-    "screen_description": "Explore a Golden Ancient Wonder",
+    "screen_description": "Explore a Silver or Golden Ancient Wonder",
     "type": "major",
-    "reward_renown": 100,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
       "name": "Farseer",
-      "screen_description": "This unit has:<bulletlist><bullet>+6 <hyperlink>Vision Range</hyperlink></bullet><bullet>+6 <hyperlink>Sensing Range</hyperlink></bullet><bullet>Truesight</bullet></bulletlist>",
+      "screen_description": "This unit has:<bulletlist><bullet>+4 <hyperlink>Vision Range</hyperlink></bullet><bullet>+6 <hyperlink>Sensing Range</hyperlink></bullet><bullet>Truesight</bullet></bulletlist>",
       "icon": "000004A6000008F6"
      }
     ]
@@ -596,20 +622,20 @@
   "icon": "000004AC00000066",
   "ambitions": [
    {
-    "screen_description": "Grow governed city to 16 population",
+    "screen_description": "Govern a city with 12+ population for 5 turns",
     "type": "major",
-    "reward_renown": 200,
+    "reward_renown": 150,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Protector",
-      "screen_description": "Adjacent friendly units gain:<bulletlist><bullet>+1 <defense></defense> <hyperlink>Defense</hyperlink></bullet><bullet>+1 <resistance></resistance> <hyperlink>Resistance</hyperlink></bullet></bulletlist>",
-      "icon": "000003E100001EB4"
+      "name": "Steward",
+      "screen_description": "Governed city gain +20%<food></food> income +20<happiness></happiness>",
+      "icon": "910A64F2000005A9"
      }
     ]
    },
    {
-    "screen_description": "Governed City maintains positive stability for 5 turns",
+    "screen_description": "Governed City maintains positive stability for 3 turns",
     "type": "minor",
     "reward_renown": 40,
     "repeatable": true,
@@ -626,15 +652,20 @@
   "icon": "000004AC00000065",
   "ambitions": [
    {
-    "screen_description": "Win a siege battle against a Throne City",
+    "screen_description": "Win a siege battle against an <hyperlink>Empire</hyperlink> city",
     "type": "major",
     "reward_renown": 200,
     "repeatable": false,
     "reward_properties": [
      {
-      "name": "Demolitionist",
-      "screen_description": "Unit has:",
-      "icon": "000003E100001EB4"
+      "name": "Summon Bolt Repeater",
+      "screen_description": "Summon a stationary <hyperlink>Bolt Repeater</hyperlink> onto the target hex.",
+      "icon": "0000048D0000041B"
+     },
+     {
+      "name": "Ascended Artificer",
+      "screen_description": "In Combat, friendly Siegecraft units deal +20% damage.",
+      "icon": "0000048D00000411"
      }
     ]
    },

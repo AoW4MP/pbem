@@ -52,7 +52,7 @@
   "category": "General Empire Skill",
   "id": "advanced_logistics",
   "required_xp": 400,
-  "description": "Roads cost 3 <hyperlink>Move Points</hyperlink> instead of 5.<br></br><br></br>Units gain Fast Embark and while embarked they gain Very Fast Movement on the <hyperlink>World Map</hyperlink>.",
+  "description": "Units gain Road Walk, roads cost 4 <hyperlink>Move Points</hyperlink> instead of 5.<br></br><br></br>Units gain Fast Embark.",
   "name": "Advanced Logistics",
   "icon": "0000045E0000097E",
   "required_level": 9,
@@ -148,7 +148,7 @@
   "category": "Chaos Empire Skill",
   "id": "call_of_chaos",
   "required_xp": 15,
-  "description": "Defeating an Infestation grants you a unit based on the Infestation defeated.",
+  "description": "Defeating an infestation grants you a Tier 2 or Tier 3 unit based on the infestation defeated",
   "name": "Call of Chaos",
   "icon": "000003E10000180A",
   "required_level": 1,
@@ -798,7 +798,7 @@
   "category": "Shadow Empire Skill",
   "id": "knowledge_extraction",
   "required_xp": 15,
-  "description": "Gain 150 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> per <hyperlink>Hero</hyperlink> defeated in combat.",
+  "description": "Gain 75 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink> per <hyperlink>Hero</hyperlink> defeated in combat.",
   "name": "Knowledge Extraction",
   "icon": "000003E1000018AB",
   "required_level": 1,
@@ -908,7 +908,7 @@
   "category": "Nature Empire Skill",
   "id": "rangers",
   "required_xp": 400,
-  "description": "Movement cost for friendly <hyperlink>Units</hyperlink> in your <hyperlink>Domain</hyperlink> is reduced by -2 <hyperlink>Move Points</hyperlink>.",
+  "description": "Movement cost for friendly <hyperlink>Units</hyperlink> in your <hyperlink>Domain</hyperlink> is reduced by -1 <hyperlink>Move Point</hyperlink>.",
   "name": "Rangers",
   "icon": "000003E10000187A",
   "required_level": 9,
@@ -1029,7 +1029,7 @@
   "category": "Chaos Empire Skill",
   "id": "impressment",
   "required_xp": 40,
-  "description": "<hyperlink>Tier</hyperlink> I <hyperlink>Units</hyperlink> gain <hyperlink><xp></xp> Experience</hyperlink> +50% faster.",
+  "description": "Tier 1 and Tier 2 units gain Experience 30% faster.",
   "name": "Impressment",
   "icon": "000003E100001824",
   "required_level": 2,
@@ -1057,5 +1057,23 @@
   "required_level": 3,
   "cost": "150<influence></influence> ",
   "required_affinity": "<arcana></arcana>"
+ },
+ {
+  "required_level": 0,
+  "category": "Order Empire Skill",
+  "id": "",
+  "required_xp": 0,
+  "description": "Recruiting <hyperlink>Units</hyperlink> during the <hyperlink>Rally of the Lieges</hyperlink> costs -50% <gold></gold> <hyperlink>Gold</hyperlink>.<br></br>Time between <hyperlink>Rallies of the Lieges</hyperlink> is reduced by -5 <turn></turn> <hyperlink>Turns</hyperlink>.",
+  "name": ""
+ },
+ {
+  "category": "Order Empire Skill",
+  "id": "",
+  "required_xp": 0,
+  "description": "Recruiting <hyperlink>Units</hyperlink> during the <hyperlink>Rally of the Lieges</hyperlink> costs -50% <gold></gold> <hyperlink>Gold</hyperlink>.<br></br>Time between <hyperlink>Rallies of the Lieges</hyperlink> is reduced by -5 <turn></turn> <hyperlink>Turns</hyperlink>.",
+  "name": "",
+  "icon": "000003E100001952",
+  "required_level": 0,
+  "cost": "350<influence></influence> "
  }
 ]

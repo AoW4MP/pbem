@@ -452,7 +452,7 @@
   "id": "vivisection_ritual",
   "DLC": "THRONESOFBLOOD ",
   "tactical": false,
-  "description": "Target enemy army sustains 20 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink> damage. Then gain +150 <knowledge></knowledge> <hyperlink>Knowledge</hyperlink>.",
+  "description": "Target enemy army sustain 10% damage, Then gain +150 Research Knowledge",
   "name": "Vivisection Ritual",
   "operation_point_cost": 150,
   "icon": "0000049700002FEB"
@@ -476,7 +476,7 @@
   "id": "desecration_ritual",
   "DLC": "THRONESOFBLOOD ",
   "tactical": false,
-  "description": "Target and adjacent surface <hyperlink>Provinces</hyperlink>:<bulletlist><bullet>Gains <hyperlink>Sunless</hyperlink>.</bullet><bullet>Enemy armies sustain 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet></bulletlist>",
+  "description": "Target and adjacent surface Province:<bulletlist><bullet>Gain Sunless.</bullet><bullet>Enemy armies sustain 10% damage.</bullet></bulletlist>",
   "name": "Desecration Ritual",
   "operation_point_cost": 275,
   "icon": "0000049700002E5B"
@@ -994,7 +994,7 @@
   "id": "dungeon_hazard",
   "DLC": "GIANTKINGS ",
   "tactical": false,
-  "description": "Target enemy army:<bulletlist><bullet>Sustains 15 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>, doubled if cast on a Dungeon <hyperlink>Province</hyperlink>.</bullet><bullet>For 1 <hyperlink>World Map</hyperlink> <turn></turn> Turn, at the start of combat units in this army become Slowed for 3 <turn></turn> Turn.</bullet></bulletlist>",
+  "description": "Target enemy army:<bulletlist><bullet>Sustains 10% damage (cannot kill units), doubled if cast on a Dungeon <hyperlink>Province</hyperlink>.</bullet><bullet>Becomes Slowed for 1 <hyperlink>World Map</hyperlink> <turn></turn> Turn.</bullet></bulletlist>",
   "name": "Dungeon Hazard",
   "operation_point_cost": 80,
   "icon": "0000049700001931"
@@ -1504,7 +1504,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>World Spell</hyperlink>",
   "id": "clairvoyance_ritual",
   "tactical": false,
-  "description": "Reveals the closest undiscovered <hyperlink>Infestation</hyperlink> or <hyperlink>Ancient Wonder</hyperlink>.",
+  "description": "Reveals the closest undiscovered City.",
   "name": "Clairvoyance Ritual",
   "operation_point_cost": 45,
   "icon": "0000049700000E01"
@@ -1518,7 +1518,7 @@
   "tactical": false,
   "description": "Summons an <hyperlink>Astral Wisp</hyperlink> on target hex.",
   "name": "Astral Wisp Ritual",
-  "operation_point_cost": 45,
+  "operation_point_cost": 60,
   "summoned_units": [
    {
     "slug": "astral_wisp"
@@ -2726,7 +2726,7 @@
   "id": "consecrating_firestorm",
   "DLC": "ELDRITCHREALMS ",
   "tactical": false,
-  "description": "In target <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy units sustain 20 <damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink>.</bullet><bullet>The province gains Consecrating Firestorm for 3 <turn></turn> Turns</bullet><bullet>If it has an enemy owned <hyperlink>Province Improvement</hyperlink>, it is <hyperlink>Pillaged</hyperlink>.</bullet></bulletlist>",
+  "description": "Target non-friendly <hyperlink>Province</hyperlink> that doesn't contain an <hyperlink>Ancient Wonder</hyperlink>:<bulletlist><bullet>Has its <hyperlink>Province Improvement</hyperlink> razed.</bullet><bullet>Enemy units in the province sustain 10% damage (cannot kill units).</bullet><bullet>For 3 <turn></turn> Turns, when entering combat all enemy units suffer Condemned.</bullet><bullet> Create <hyperlink>Cleansing Flames</hyperlink> on random hexes.</bullet></bulletlist>",
   "name": "Consecrating Firestorm",
   "operation_point_cost": 100,
   "icon": "0000048D0000087B"
@@ -3233,7 +3233,7 @@
   "id": "pall_of_gloom",
   "DLC": "ELDRITCHREALMS ",
   "tactical": false,
-  "description": "Target <hyperlink>Province</hyperlink> and adjacent <hyperlink>Provinces</hyperlink>:<bulletlist><bullet>Gain <hyperlink>Gloom</hyperlink></bullet><bullet>Lose <hyperlink>Chasm</hyperlink>, <hyperlink>River</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Ashlands</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, and <hyperlink>Dungeon</hyperlink>.</bullet><bullet>Enemy <hyperlink>Units</hyperlink> suffer 10 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink> and 10 <damageBlight></damageBlight> <hyperlink>Blight Damage</hyperlink>.</bullet></bulletlist>",
+  "description": "Target <hyperlink>Province</hyperlink> and adjacent <hyperlink>Provinces</hyperlink>:<bulletlist><bullet>Gain <hyperlink>Gloom</hyperlink></bullet><bullet>Lose <hyperlink>Chasm</hyperlink>, <hyperlink>River</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Ashlands</hyperlink>, <hyperlink>Swamp</hyperlink>, and <hyperlink>Dungeon</hyperlink>.</bullet><bullet>Enemy <hyperlink>Units</hyperlink>suffer 10% damage (cannot kill units).</bullet></bulletlist>",
   "name": "Pall of Gloom",
   "operation_point_cost": 150,
   "icon": "0000048B00000135"
@@ -3497,7 +3497,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Friendly Army Spell</hyperlink>",
   "id": "recall_ruler",
   "tactical": false,
-  "description": "Return target <hyperlink>Army</hyperlink> with your <hyperlink>Ruler</hyperlink> to your <hyperlink>Throne City</hyperlink>.",
+  "description": "Return target Army with your Ruler to your Throne city, Army loses full movement points.",
   "name": "Recall Ruler",
   "operation_point_cost": 80,
   "icon": "0000042A0000092B"
@@ -3508,7 +3508,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
   "id": "abyssal_flames",
   "tactical": false,
-  "description": "Target <hyperlink>Province</hyperlink> and adjacent Provinces:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> suffer 20 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>The provinces gain <hyperlink>Ashlands</hyperlink>.</bullet><bullet>The provinces lose <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
+  "description": "Target <hyperlink>Province</hyperlink> and adjacent Provinces:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> suffer 10% damage (cannot kill units).</bullet><bullet>The provinces gain <hyperlink>Ashlands</hyperlink>.</bullet><bullet>The provinces lose <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
   "name": "Abyssal Flames",
   "operation_point_cost": 200,
   "icon": "000003E300005AA8"
@@ -3519,7 +3519,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
   "id": "flash_freeze",
   "tactical": false,
-  "description": "Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> in the Province suffer:<bulletlist></bullet><bullet>20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>-5 <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> <hyperlink>Turns</hyperlink>.</bullet></bulletlist><bullet>The province gains <hyperlink>Snow</hyperlink> and <hyperlink>Ice</hyperlink>.</bullet><bullet>The province loses <hyperlink>Chasm</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Ashlands</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
+  "description": "Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> in the Province suffer:<bulletlist></bullet><bullet>10% damage.</bullet><bullet>-5 <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> <hyperlink>Turns</hyperlink>.</bullet></bulletlist><bullet>The province gains <hyperlink>Snow</hyperlink> and <hyperlink>Ice</hyperlink>.</bullet><bullet>The province loses <hyperlink>Chasm</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>River</hyperlink>, <hyperlink>Ashlands</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
   "name": "Flash Freeze",
   "operation_point_cost": 100,
   "icon": "0000041B00001764"
@@ -3564,7 +3564,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
   "id": "destructive_regrowth",
   "tactical": false,
-  "description": "On Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy units sustain 20 <damageBlight></damageBlight> <hyperlink>Blight Damage</hyperlink>.</bullet><bullet>If it contains an enemy <hyperlink>Province Improvement</hyperlink>, it becomes <hyperlink>Pillaged</hyperlink>.<bulletlist></bullet><bullet>You are not granted its rewards nor do you lose <hyperlink>Alignment</hyperlink>.</bullet></bulletlist><bullet>The province gains <hyperlink>Forest</hyperlink> if on the Surface or <hyperlink>Mushroom Forest</hyperlink> if in the Underground.</bullet></bulletlist>",
+  "description": "Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy units within sustain 10% damage (Cannot kill units).</bullet><bullet>If it contains an enemy <hyperlink>Province Improvement</hyperlink>, it becomes <hyperlink>Pillaged</hyperlink>.<bulletlist></bullet><bullet>You are not granted its rewards nor do you lose <hyperlink>Alignment</hyperlink>.</bullet></bulletlist><bullet>The province gains <hyperlink>Forest</hyperlink> if on the Surface or <hyperlink>Mushroom Forest</hyperlink> if in the Underground.</bullet></bulletlist>",
   "name": "Destructive Regrowth",
   "operation_point_cost": 150,
   "icon": "000003E30000522E"
@@ -3724,7 +3724,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Friendly Army Spell</hyperlink>",
   "id": "wizard_tower_teleportation_circle",
   "tactical": false,
-  "description": "Return target <hyperlink>Army</hyperlink> to <hyperlink>Throne City</hyperlink>",
+  "description": "Return target Army to your Throne city, Army loses full movement points.",
   "name": "Wizard Tower: Teleportation Circle",
   "operation_point_cost": 120,
   "icon": "0000042A00000955"
@@ -3735,7 +3735,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
   "id": "wrath_of_the_emperor",
   "tactical": false,
-  "description": "Target enemy army:<bulletlist><bullet>Sustains 20 <damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink>.</bullet><bullet>Becomes Demoralized for 1 <turn></turn> Turn.</bullet><bullet>Becomes Condemned for 1 <turn></turn> Turn.</bullet><bullet>If cast in enemy territory, the army additionally sustains +50% damage.</bullet></bulletlist>",
+  "description": "Target enemy army:<bulletlist><bullet>Sustains 10% damage (Cannot kill units).</bullet><bullet>Becomes Demoralized for 1 <turn></turn> Turn.</bullet><bullet>Becomes Condemned for 1 <turn></turn> Turn.</bullet><bullet>If cast in enemy territory, the army additionally sustains +50% damage.</bullet></bulletlist>",
   "name": "Wrath of the Emperor",
   "operation_point_cost": 120,
   "icon": "0000041B000019D1"
@@ -3768,7 +3768,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
   "id": "condemn_army",
   "tactical": false,
-  "description": "Target enemy army:<bulletlist><bullet>Takes 20 <damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink></bullet><bullet>Becomes Condemned for 5 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bullet></bulletlist>",
+  "description": "Target enemy army:<bulletlist><bullet>Takes 10% damage (Cannot kill units).</bullet><bullet>Becomes Condemned for 5 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bullet></bulletlist>",
   "name": "Condemn Army",
   "operation_point_cost": 80,
   "icon": "0000041B0000199D"
@@ -3809,7 +3809,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
   "id": "burden_of_guilt",
   "tactical": false,
-  "description": "Target enemy army:<bulletlist><bullet>Sustains 20 <damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink>.</bullet><bullet>Loses 50% of its Move Points on the <hyperlink>World Map</hyperlink>.</bullet></bulletlist>",
+  "description": "Target enemy army:<bulletlist><bullet>Sustains 10% damage (Cannot kill units).</bullet><bullet>Loses 50% of its Move Points on the <hyperlink>World Map</hyperlink>.</bullet></bulletlist>",
   "name": "Burden of Guilt",
   "operation_point_cost": 80,
   "icon": "0000041B00001957"
@@ -4069,7 +4069,7 @@
  {
   "casting_cost": "100<mana></mana> ",
   "resid": 4514010634173,
-  "spellType": "<casttactical></casttactical> <hyperlink>Debuff Spell</hyperlink>",
+  "spellType": "<casttactical></casttactical> <hyperlink>Damage Spell</hyperlink>",
   "id": "devouring_void",
   "tactical": true,
   "description": "<bulletlist><bullet>Conjures a <hyperlink>Devouring Void</hyperlink> in a 1-hex radius.</bullet><bullet>Each turn, the radius increases by 1 hex.</bullet><bullet>Lasts for 2 <turn></turn> Turns.</bullet></bulletlist>",
@@ -4180,7 +4180,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
   "id": "blizzard",
   "tactical": false,
-  "description": "All units in target enemy army:<bulletlist><bullet>Sustain 20 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Suffer -3 <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> for 1 World Map <turn></turn> Turns.</bullet></bulletlist>",
+  "description": "All units in target enemy army:<bulletlist><bullet>Sustain 10% damage (Cannot kill units).</bullet><bullet>Suffer -3 <statuseffectresistance></statuseffectresistance> <hyperlink>Status Resistance</hyperlink> for 1 World Map <turn></turn> Turns.</bullet></bulletlist>",
   "name": "Blizzard",
   "operation_point_cost": 80,
   "icon": "0000041B000006D0"
@@ -4245,7 +4245,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Unit Enchantment</hyperlink>",
   "id": "cosmic_overdrive",
   "tactical": false,
-  "description": "Grants enchanted units:<bulletlist><bullet>+20% damage.</bullet><bullet>Very Fast Movement.</bullet></bulletlist>",
+  "description": "Grants enchanted units:<bulletlist><bullet>+20% damage.</bullet><bullet>Fast Movement.</bullet></bulletlist>",
   "enchantment_requisites": [
    {
     "requisite": "Combat Summon"
@@ -4438,7 +4438,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Enemy Army Spell</hyperlink>",
   "id": "lightning_torrent",
   "tactical": false,
-  "description": "In target enemy army:<bulletlist><bullet>All units sustain 20 <damageLightning></damageLightning> <hyperlink>Lightning Damage</hyperlink>.</bullet><bullet>All units suffer -1 <defenselightning></defenselightning> <hyperlink>Lightning Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bullet></bulletlist>",
+  "description": "In target enemy army:<bulletlist><bullet>All units sustain 10% damage (Cannot kill units).</bullet><bullet>All units suffer -3 <defenselightning></defenselightning> <hyperlink>Lightning Resistance</hyperlink> for 1 <hyperlink>World Map</hyperlink> <turn></turn> Turns.</bullet></bulletlist>",
   "name": "Lightning Torrent",
   "operation_point_cost": 80,
   "icon": "0000041B000012E5"
@@ -4541,7 +4541,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
   "id": "pyroclastic_eruption",
   "tactical": false,
-  "description": "Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>If it contains an enemy <hyperlink>Province Improvement</hyperlink>, it will be <hyperlink>Pillaged</hyperlink>.<bulletlist></bullet><bullet>You will not gain its rewards or lose <hyperlink>Alignment</hyperlink>.</bullet></bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> in the province sustain 20 <damageFire></damageFire> <hyperlink>Fire Damage</hyperlink>.</bullet><bullet>The province gains <hyperlink>Ashlands</hyperlink>.</bullet><bullet>The province loses <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
+  "description": "Target <hyperlink>Province</hyperlink>:<bulletlist><bullet>If it contains an enemy <hyperlink>Province Improvement</hyperlink>, it will be <hyperlink>Pillaged</hyperlink>.<bulletlist></bullet><bullet>You will not gain its rewards or lose <hyperlink>Alignment</hyperlink>.</bullet></bulletlist><bullet>Enemy <hyperlink>Units</hyperlink>in the province sustain 10% damage (cannot kill units).</bullet><bullet>The province gains <hyperlink>Ashlands</hyperlink>.</bullet><bullet>The province loses <hyperlink>River</hyperlink>, <hyperlink>Grassland</hyperlink>, <hyperlink>Swamp</hyperlink>, <hyperlink>Snow</hyperlink>, <hyperlink>Ice</hyperlink>, <hyperlink>Sand</hyperlink>, <hyperlink>Cavern Floor</hyperlink>, <hyperlink>Fungus Fields</hyperlink>, and <hyperlink>Gloom</hyperlink>.</bullet></bulletlist>",
   "name": "Pyroclastic Eruption",
   "operation_point_cost": 150,
   "icon": "000003AD00002B86"
@@ -6258,9 +6258,6 @@
   "enchantment_requisites": [
    {
     "requisite": "Tier I"
-   },
-   {
-    "requisite": "Tier II"
    }
   ],
   "name": "Mighty Meek",
@@ -6765,7 +6762,7 @@
   "spellType": "<caststrategic></caststrategic> <hyperlink>Terraforming Spell</hyperlink>",
   "id": "earth_shatter",
   "tactical": false,
-  "description": "In target habitable or uninhabitable <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> sustain 10 <damagePhysical></damagePhysical> <hyperlink>Physical Damage</hyperlink>.</bullet><bullet>The province loses any <hyperlink>Mountain</hyperlink>, <hyperlink>Stalagmites</hyperlink>, and <hyperlink>Diggable Earth</hyperlink>.</bullet><bullet>Summon a <hyperlink>Stone Spirit</hyperlink></bullet></bulletlist>",
+  "description": "Target habitable or uninhabitable <hyperlink>Province</hyperlink>:<bulletlist><bullet>Enemy <hyperlink>Units</hyperlink> in the province sustain 10%damage (cannot kill units).</bullet><bullet>Loses <hyperlink>Mountain</hyperlink>, <hyperlink>Stalagmites</hyperlink>, and <hyperlink>Diggable Earth</hyperlink>.</bullet></bulletlist>",
   "name": "Earth Shatter",
   "operation_point_cost": 150,
   "icon": "000003E300005CCB",
@@ -7564,7 +7561,7 @@
   "id": "soulcurse_of_greed",
   "DLC": "GIANTKINGS ",
   "tactical": false,
-  "description": "Target enemy army:<bulletlist><bullet>Sustains 8 <damageSpirit></damageSpirit> <hyperlink>Spirit Damage</hyperlink> and 8 <damageFrost></damageFrost> <hyperlink>Frost Damage</hyperlink>.</bullet><bullet>Becomes Cursed by Greed for 1 <turn></turn> Turn.</bullet></bulletlist>",
+  "description": "Target enemy army:<bulletlist><bullet>Sustains 10% damage (cannot kill units).</bullet><bullet>Becomes Cursed by Greed for 1 <turn></turn> Turn.</bullet></bulletlist>",
   "name": "Soulcurse of Greed",
   "operation_point_cost": 80,
   "icon": "000003DF00001C78"

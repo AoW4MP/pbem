@@ -1227,8 +1227,8 @@
    }
   ],
   "name": "Veteran's Pike",
-  "tier": "Tier I",
-  "tier_numerals": "I",
+  "tier": "Tier II",
+  "tier_numerals": "II",
   "hero_classes": [
    {
     "name": "<classBattlesaint></classBattlesaint> Battlesaint"
@@ -7152,8 +7152,8 @@
   "ability_slugs": [],
   "description": "Units in the army led by a hero with this item equipped gain Umbral Malady Immunity and Farsight while in <hyperlink>Gloom</hyperlink> terrain.",
   "name": "Gloomwatch Beacon",
-  "tier": "Tier III",
-  "tier_numerals": "III",
+  "tier": "Tier II",
+  "tier_numerals": "II",
   "slot": "Miscellaneous",
   "icon": "00000493000006E8",
   "disabled_slots": []
@@ -15279,8 +15279,8 @@
   "resid": 4514010635217,
   "id": "book_of_siegecraft_item_tier_3",
   "name": "Book of Siegecraft",
-  "tier_numerals": "III",
-  "tier": "Tier III",
+  "tier_numerals": "II",
+  "tier": "Tier II",
   "slot": "Miscellaneous",
   "ability_slugs": [
    {
@@ -15525,7 +15525,7 @@
     "slug": "0000045e0000034f"
    }
   ],
-  "description": "Summons a Lightbringer next to this <hyperlink>Hero</hyperlink> at the start of battle.<br></br>This summon lasts for <turn></turn> Turns.",
+  "description": "Summons a Lightbringer next to this <hyperlink>Hero</hyperlink> at the start of battle.This summon lasts until end of combat",
   "hero_types": [
    {
     "name": "Champion"
@@ -16503,8 +16503,8 @@
   "resid": 4514010633271,
   "id": "demonic_shield_tier_3",
   "name": "Demonic Shield",
-  "tier_numerals": "III",
-  "tier": "Tier III",
+  "tier_numerals": "II",
+  "tier": "Tier II",
   "hero_classes": [
    {
     "name": "<classBattlesaint></classBattlesaint> Battlesaint"
@@ -16681,8 +16681,8 @@
   "resid": 4514010633215,
   "id": "ring_of_endurance_item_tier_2",
   "name": "Ring of Endurance",
-  "tier_numerals": "II",
-  "tier": "Tier II",
+  "tier_numerals": "I",
+  "tier": "Tier I",
   "slot": "Ring",
   "ability_slugs": [],
   "icon": "0000041B00001401",
@@ -16697,7 +16697,7 @@
   "slot": "Ring",
   "ability_slugs": [
    {
-    "slug": "0000041b00000572"
+    "slug": "910a64f200000646"
    }
   ],
   "icon": "0000041B000013FE",
@@ -16975,8 +16975,8 @@
    }
   ],
   "name": "Punisher's Halberd",
-  "tier": "Tier II",
-  "tier_numerals": "II",
+  "tier": "Tier III",
+  "tier_numerals": "III",
   "hero_classes": [
    {
     "name": "<classBattlesaint></classBattlesaint> Battlesaint"
@@ -17301,7 +17301,7 @@
   "resid": 4488240825037,
   "id": "lucky_ring_item_tier_1",
   "ability_slugs": [],
-  "description": "Grants a +5% <hyperlink><crit></crit>Critical Hit Chance</hyperlink>.",
+  "description": "Grants a +10% <hyperlink><crit></crit>Critical Hit Chance</hyperlink>.",
   "name": "Lucky Ring",
   "tier": "Tier I",
   "tier_numerals": "I",
@@ -17688,8 +17688,8 @@
    }
   ],
   "name": "Satirical Orb",
-  "tier_numerals": "II",
-  "tier": "Tier II",
+  "tier_numerals": "III",
+  "tier": "Tier III",
   "hero_classes": [
    {
     "name": "<classBattlesaint></classBattlesaint> Battlesaint"
@@ -19603,7 +19603,7 @@
     "slug": "jump_ability_000003BD00002895"
    },
    {
-    "slug": "web_ability_000003BD00002895"
+    "slug": "web_exotic_mount_ability_000003BD00002895"
    }
   ],
   "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet></bulletlist>",
@@ -19619,7 +19619,7 @@
   "id": "vampire_spider_mount_item_tier_3",
   "ability_slugs": [
    {
-    "slug": "barbed_webs_ability_000003BD00002895"
+    "slug": "2barbed_webs_ability_000003BD00002895"
    }
   ],
   "description": "Unit has:<bulletlist><bullet>Very Fast Movement.</bullet><bullet>The Cavalry unit type.</bullet></bulletlist>",

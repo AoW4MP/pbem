@@ -2,9 +2,9 @@
 <html lang="en">
     <head>
         <link rel="shortcut icon" href="/pbem/favicon.ico" />
-         <link rel="stylesheet" type="text/css" href="/pbem/Style/style.css" />
-         <link rel="stylesheet" type="text/css" href="/pbem/Style/icons.css" />
-        <title>Age of Wonders 4 Database</title>
+        <link rel="stylesheet" type="text/css" href="/pbem/Style/style.css" />
+        <link rel="stylesheet" type="text/css" href="/pbem/Style/icons.css" />
+        <title>Age of Wonders 4 PBEM</title>
     </head>
 
     <body>
@@ -23,31 +23,31 @@
                             <input type="checkbox" id="numbersCheckbox" onclick="CheckBoxTooltips()" />
                         </label>
                         <br />
-                        <label style="display: none">
-                            Language:
-                            <select id="languageSelect" onchange="SwitchToBeta()">
-                                <option value="EN">English</option>
-                                <option value="DE">Deutsch</option>
-                                <option value="JA">Japanese</option>
-                                <option value="KO">Korean</option>
-                                <option value="PL">Polish</option>
-                                <option value="ES">Spanish</option>
-                                <option value="RU">Russian</option>
-                                <option value="CN">Chinese</option>
-                                <option value="FR">French</option>
-                            </select>
-                        </label>
                     </div>
                 </div>
-                <div class="donate">
-                    <a class="prett" href="/pbem/HTML/Donate.html">
-                        Donate<img src="/pbem/Icons/Text/health.png" width="20px" />
-                    </a>
-                </div>
+            </div>
+            <label style="display: block; position: relative; left: -86px">
+                WIP
+                <select id="languageSelect" class="button-random" onchange="SwitchToBeta()">
+                    <option value="EN">English</option>
+                    <option value="DE">Deutsch</option>
+                    <option value="ES">Español</option>
+                    <option value="FR">Français</option>
+                    <option value="JA">日本語</option>
+                    <option value="KO">한국어</option>
+                    <option value="PL">Polski</option>
+                    <option value="RU">Pусский</option>
+                    <option value="ZH">中文</option>
+                </select>
+            </label>
+            <div class="donate" >
+                <a class="prett" href="/pbem/HTML/Donate.html">
+                    Donate<img src="/pbem/Icons/Text/health.png" width="20px" />
+                </a>
             </div>
 
             <div class="dropdown">
-                <div class="dropdown-title">Other Database ▼</div>
+                <div class="dropdown-title">Other PBEM ▼</div>
                 <div class="dropdown-content">
                     <a class="prett" href="https://minionsart.github.io/aow3db/" target="_blank">
                         <img src="/pbem/Icons/Interface/aow3icon.png" width="20px" /> AOW3
@@ -59,20 +59,21 @@
             </div>
         </div>
         <div class="header-img">
-          
             <div id="topButtonContainer" style="display: none">
                 <div id="myCenteredButton"><a href="/pbem/HTML/Donate.html">Donate</a></div>
             </div>
 
-            <div class="hero-text">Age of Wonders 4 Database</div>
-            <div class="mid-text" style="display: none; margin: 15px; ">
-                Switch To Griffon Beta Dataset:<input type="checkbox" id="showBetaCheckbox" onclick="SwitchToBeta()" />
-                <br /><i>(only changes exported dataset, images can break)</i>
+            <a href="/pbem/" style=" text-decoration: none;"><div class="hero-text">Age of Wonders 4 PBEM</div></a>
+            <div class="mid-text" style="display: none; margin: 15px">
+                Switch To Gargoyle Beta Dataset:<input type="checkbox" id="showBetaCheckbox" onclick="SwitchToBeta()" />
+                <br /><i>(only changes exported dataset, images can break, english only)</i>
             </div>
-            <div class="current-version">Updated: 14 AUGUST 2025 (GRIFFON PATCH)</div>
+            <div class="current-version">Updated: 25 NOV 2025</div>
 
-            <div class="hero-text" style="display:block">
-                <img src="/pbem/Icons/Interface/archon_prophecy.png" width="442px" />
+            <div class="hero-text" style="display: block">
+                <img style="
+    position: relative;
+    top: -21px;" src="/pbem/Icons/Text/ThroneOfBloodLogo.png" width="442px" />
             </div>
             <ul id="menu">
                 <li>
@@ -112,7 +113,7 @@
                                     >
                                 </li>
                                 <li>
-                                    <a id="culture-dark" href="/pbem/HTML/DarkUnits.html?type=outrider"
+                                    <a id="culture-dark" href="/pbem/HTML/DarkUnits.html?type=outriderCult%20of%20Death&"
                                         ><img src="/pbem/Icons/Text/dark.png" width="20px" /> Dark</a
                                     >
                                 </li>
@@ -142,10 +143,8 @@
                                         ><img src="/pbem/Icons/Text/oathsworn.png" width="20px" /> Oathsworn</a
                                     >
                                 </li>
-                                 <li>
-                                    <a
-                                        id="culture-architect"
-                                        href="/pbem/HTML/ArchitectUnits.html?type=surveyor&"
+                                <li>
+                                    <a id="culture-architect" href="/pbem/HTML/ArchitectUnits.html?type=surveyor&"
                                         ><img src="/pbem/Icons/Text/architect.png" width="20px" /> Architect</a
                                     >
                                 </li>
@@ -177,7 +176,9 @@
                                     >
                                 </li>
                                 <li>
-                                    <a id="tomesU-order" href="/pbem/HTML/OrderTomesUnits.html?type=lesser_light_spirit&"
+                                    <a
+                                        id="tomesU-order"
+                                        href="/pbem/HTML/OrderTomesUnits.html?type=lesser_light_spirit&"
                                         ><img src="/pbem/Icons/Text/order.png" width="20px" /> Order</a
                                     >
                                 </li>
@@ -230,7 +231,13 @@
                                 </li>
                                 <li>
                                     <a id="tomesU-ap" href="/pbem/HTML/ArchonProphecyTomeUnits.html"
-                                        ><img src="/pbem/Icons/Text/ArchonProphecy.png" width="20px" /> Archon Prophecy</a
+                                        ><img src="/pbem/Icons/Text/ArchonProphecy.png" width="20px" /> Archon
+                                        Prophecy</a
+                                    >
+                                </li>
+                                 <li>
+                                    <a id="tomesU-tob" href="/pbem/HTML/ThronesOfBloodUnits.html"
+                                        ><img src="/pbem/Icons/Text/ThronesOfBlood.png" width="20px" /> Thrones of Blood</a
                                     >
                                 </li>
                             </ul>
@@ -328,7 +335,7 @@
                                 ><img
                                     style="margin-top: -20px; margin-bottom: -10px"
                                     src="/pbem/Icons/UnitIcons/shock_unit.png"
-                                    width="20px" />Classes
+                                    width="20px" />Classes ▸
                             </a>
                             <ul class="submenu">
                                 <li>
@@ -519,7 +526,7 @@
                     >
                     <ul class="menus">
                         <li>
-                            <a id="world-city" href="/pbem/HTML/CityTreesNew.html"
+                            <a id="world-city" href="/pbem/HTML/CityTrees.html"
                                 ><img src="/pbem/Icons/UpgradeIcons/throne.png" width="20px" /> City Tree</a
                             >
                         </li>
@@ -564,7 +571,7 @@
                             <a
                                 id="hero-equipment"
                                 href="/pbem/HTML/HeroEquipment.html?type=Primary%20Weapon&sort=tier:true"
-                                ><img src="/pbem/Icons/Interface/EquipmentIcon.png" width="20px" />Equipment</a
+                                ><img src="/pbem/Icons/Text/equipment.png" width="15px" /> Equipment</a
                             >
                         </li>
                         <li>
@@ -691,11 +698,15 @@
     <style>
         .topbar {
             color: white;
-            padding: 10px 20px;
+           
             font-size: 14px;
+            position: relative;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
+            flex-wrap: nowrap;
+            z-index: 30;
+            flex-direction: row;
         }
 
         .dropdown {
@@ -704,9 +715,21 @@
         }
 
         .donate {
-            margin-left: 20px;
-            position: relative;
-            display: inline-block;
+          
+    right: -152px;
+    position: relative;
+    display: inline-block;
+    background-color: #4b1d63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    /* height: 30px; */
+    border-width: 5px;
+    border-style: solid;
+    border-image: url(/pbem/Icons/9slicetooltip.png);
+    border-image-slice: 10 10 10 10;
         }
 
         .dropdown-title {

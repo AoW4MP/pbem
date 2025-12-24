@@ -1,5 +1,29 @@
 [
  {
+  "id": "장로_흡혈귀_총독",
+  "name": "장로 흡혈귀 총독",
+  "level_data": [
+   {
+    "effect_description": "<population></population> <hyperlink>인구</hyperlink> 하나당 <food></food> <hyperlink>식량</hyperlink> +1, <unitprod></unitprod> <hyperlink>징집력</hyperlink> +1, <knowledge></knowledge> 지식 +1",
+    "level": 1
+   },
+   {
+    "effect_description": "새 <population></population> <hyperlink>인구</hyperlink> 및 <thralls></thralls> <hyperlink>노예</hyperlink> 획득에 필요한 <food></food> <hyperlink>식량</hyperlink> -20%",
+    "level": 2
+   },
+   {
+    "effect_description": "<mine></mine> <hyperlink>광산</hyperlink> 하나당 <influence></influence> <hyperlink>주권</hyperlink> +2",
+    "level": 3
+   },
+   {
+    "effect_description": "유닛 고용에 필요한 <gold></gold> <hyperlink>금화</hyperlink>, <unitprod></unitprod> <hyperlink>징집력</hyperlink>, <souls></souls> <hyperlink>영혼</hyperlink> 비용 -20%",
+    "level": 4
+   }
+  ],
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <food></food> <hyperlink>식량</hyperlink> +1, <unitprod></unitprod> <hyperlink>징집력</hyperlink> +1, <knowledge></knowledge> 지식 +1</bullet><bullet><white>명망 2레벨</white><br></br>새 <population></population> <hyperlink>인구</hyperlink> 및 <thralls></thralls> <hyperlink>노예</hyperlink> 획득에 필요한 <food></food> <hyperlink>식량</hyperlink> -20%</bullet><bullet><white>명망 3레벨</white><br></br><mine></mine> <hyperlink>광산</hyperlink> 하나당 <influence></influence> <hyperlink>주권</hyperlink> +2</bullet><bullet><white>명망 4레벨</white><br></br>유닛 고용에 필요한 <gold></gold> <hyperlink>금화</hyperlink>, <unitprod></unitprod> <hyperlink>징집력</hyperlink>, <souls></souls> <hyperlink>영혼</hyperlink> 비용 -20%</bullet></bulletlist>",
+  "icon": "0000049700002E2D"
+ },
+ {
   "id": "거인_왕_총독",
   "name": "거인 왕 총독",
   "level_data": [
@@ -12,15 +36,15 @@
     "level": 2
    },
    {
-    "effect_description": "각 <quarry></quarry> <hyperlink>채석장</hyperlink>이 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
+    "effect_description": "각 <quarry></quarry> <hyperlink>채석장이</hyperlink> 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
     "level": 3
    },
    {
-    "effect_description": "도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>서리 거인</hyperlink> 유닛 징집 활성화",
+    "effect_description": "도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>서리 거인</hyperlink> 유닛 징집 활성화",
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>서리 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>서리 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
   "icon": "0000049700001A1C"
  },
  {
@@ -36,15 +60,15 @@
     "level": 2
    },
    {
-    "effect_description": "각 <quarry></quarry> <hyperlink>채석장</hyperlink>이 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
+    "effect_description": "각 <quarry></quarry> <hyperlink>채석장이</hyperlink> 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
     "level": 3
    },
    {
-    "effect_description": "도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>암석 거인</hyperlink> 유닛 징집 활성화",
+    "effect_description": "도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>암석 거인</hyperlink> 유닛 징집 활성화",
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>암석 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>암석 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
   "icon": "0000049700001A1C"
  },
  {
@@ -60,15 +84,15 @@
     "level": 2
    },
    {
-    "effect_description": "각 <quarry></quarry> <hyperlink>채석장</hyperlink>이 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
+    "effect_description": "각 <quarry></quarry> <hyperlink>채석장이</hyperlink> 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
     "level": 3
    },
    {
-    "effect_description": "도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>화염 거인</hyperlink> 유닛 징집 활성화",
+    "effect_description": "도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>화염 거인</hyperlink> 유닛 징집 활성화",
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>화염 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>화염 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
   "icon": "0000049700001A1C"
  },
  {
@@ -84,15 +108,15 @@
     "level": 2
    },
    {
-    "effect_description": "각 <quarry></quarry> <hyperlink>채석장</hyperlink>이 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
+    "effect_description": "각 <quarry></quarry> <hyperlink>채석장이</hyperlink> 주는 <hyperlink>속박의 파편</hyperlink>이 +1<bindingfragment></bindingfragment> 증가합니다.",
     "level": 3
    },
    {
-    "effect_description": "도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>폭풍 거인</hyperlink> 유닛 징집 활성화",
+    "effect_description": "도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>폭풍 거인</hyperlink> 유닛 징집 활성화",
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물가 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>폭풍 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <structureprod></structureprod> <hyperlink>생산력</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>도시 건물의 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%</bullet><bullet><white>명망 3레벨</white><br></br><quarry></quarry> <hyperlink>채석장</hyperlink> 하나당 <hyperlink>속박의 파편</hyperlink> +1<bindingfragment></bindingfragment></bullet><bullet><white>명망 4레벨</white><br></br>도시 건물이 기존 효과에 더해 <gold></gold> 금화 +2 제공<br></br><hyperlink>폭풍 거인</hyperlink> 유닛 징집 활성화</bullet></bulletlist>",
   "icon": "0000049700001A1C"
  },
  {
@@ -188,7 +212,7 @@
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <mana></mana> 마나 +5</bullet><bullet><white>명망 2레벨</white><br></br><conduit></conduit> <hyperlink>수로</hyperlink> 또는 <researchpost></researchpost> <hyperlink>연구 기지</hyperlink> 하나당 <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <knowledge></knowledge> 지식 +2</bullet><bullet><white>명망 4레벨</white><br></br><mana></mana> <hyperlink>마나</hyperlink> 수입 +10%</bullet></bulletlist><br></br>명망 레벨이 증가할 때마다 <optactical></optactical> <hyperlink> 전투 시전 점수</hyperlink>이 +5, <caststrategic></caststrategic> <hyperlink>세계 지도 시전 점수</hyperlink>이 +5 증가합니다.",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <mana></mana> 마나 +5</bullet><bullet><white>명망 2레벨</white><br></br><conduit></conduit> <hyperlink>수로</hyperlink> 또는 <researchpost></researchpost> <hyperlink>연구 기지</hyperlink> 하나당 <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <knowledge></knowledge> 지식 +2</bullet><bullet><white>명망 4레벨</white><br></br><mana></mana> <hyperlink>마나</hyperlink> 수입 +10%</bullet></bulletlist><br></br>명망 레벨이 증가할 때마다 <optactical></optactical> <hyperlink> 전투 시전 점수가</hyperlink> +5, <caststrategic></caststrategic> <hyperlink>세계 지도 시전 점수가</hyperlink> +5 증가합니다.",
   "icon": "0000048D00000DDD"
  },
  {
@@ -212,7 +236,7 @@
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><farm></farm> <hyperlink>농장</hyperlink> 하나당 <food></food> <hyperlink>식량</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>새 <population></population> <hyperlink>인구</hyperlink>를 획득할 때 필요한 <food></food> <hyperlink>식량</hyperlink> -20</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <gold></gold> 금화 +1, <mana></mana> 마나 +1, <knowledge></knowledge> 지식 +1</bullet><bullet><white>명망 4레벨</white><br></br>유닛 고용에 필요한 <gold></gold> <hyperlink>금화</hyperlink>, <unitprod></unitprod> <hyperlink>징집력</hyperlink> 비용 -20%</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br><farm></farm> <hyperlink>농장</hyperlink> 하나당 <food></food> <hyperlink>식량</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>새 <population></population> <hyperlink>인구를</hyperlink> 획득할 때 필요한 <food></food> <hyperlink>식량</hyperlink> -20</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <gold></gold> 금화 +1, <mana></mana> 마나 +1, <knowledge></knowledge> 지식 +1</bullet><bullet><white>명망 4레벨</white><br></br>유닛 고용에 필요한 <gold></gold> <hyperlink>금화</hyperlink>, <unitprod></unitprod> <hyperlink>징집력</hyperlink> 비용 -20%</bullet></bulletlist>",
   "icon": "0000048D00000DDD"
  },
  {
@@ -260,7 +284,7 @@
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br>각 <hyperlink>특수 구획 개선 시설</hyperlink> 건설에 드는 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%, <structureprod></structureprod> <hyperlink>생산력</hyperlink> 비용 -20%</bullet><bullet><white>명망 2레벨</white><br></br>각 <hyperlink>특수 구획 개선 시설</hyperlink>의 <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <knowledge></knowledge> 지식 +5</bullet><bullet><white>명망 4레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <mana></mana> 마나 +2, <gold></gold> 금화 +2</bullet>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br>각 <hyperlink>특수 구획 개선 시설</hyperlink> 건설에 드는 <gold></gold> <hyperlink>금화</hyperlink> 비용 -20%, <structureprod></structureprod> <hyperlink>생산력</hyperlink> 비용 -20%</bullet><bullet><white>명망 2레벨</white><br></br>각 <hyperlink>특수 구획 개선 시설</hyperlink>의 <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <knowledge></knowledge> 지식 +5</bullet><bullet><white>명망 4레벨</white><br></br><hyperlink>특수 구획 개선 시설</hyperlink> 하나당 <mana></mana> 마나 +2, <gold></gold> 금화 +2</bullet></bulletlist>",
   "icon": "0000048D00000B31"
  },
  {
@@ -356,7 +380,7 @@
     "level": 4
    }
   ],
-  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br>각 <mine></mine> <hyperlink>광산</hyperlink>이 <gold></gold> <hyperlink>금화</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>각 <mine></mine> <hyperlink>광산</hyperlink>이 <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <gold></gold> 금화 +2</bullet><bullet><white>명망 4레벨</white><br></br><gold></gold> <hyperlink>금화</hyperlink> 수입 +10%</bullet></bulletlist>",
+  "screen_description": "해당 유닛이 총독일 때, 지배 중인 도시가 해당 영웅의 명망 레벨에 따라 혜택을 받습니다.<bulletlist><bullet><white>명망 1레벨</white><br></br>각 <mine></mine> <hyperlink>광산이</hyperlink> <gold></gold> <hyperlink>금화</hyperlink> +5</bullet><bullet><white>명망 2레벨</white><br></br>각 <mine></mine> <hyperlink>광산이</hyperlink> <happiness></happiness> <hyperlink>도시 안정도</hyperlink> +5</bullet><bullet><white>명망 3레벨</white><br></br><population></population> <hyperlink>인구</hyperlink> 하나당 <gold></gold> 금화 +2</bullet><bullet><white>명망 4레벨</white><br></br><gold></gold> <hyperlink>금화</hyperlink> 수입 +10%</bullet></bulletlist>",
   "icon": "0000048D00000B13"
  },
  {

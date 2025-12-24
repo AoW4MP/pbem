@@ -79,7 +79,7 @@
 
             .button-inset {
                 background-color: #007bff00;
-                color: #fff;
+                color: #b5b5b1;
                 border: none;
                 cursor: pointer;
                 position: relative;
@@ -89,6 +89,9 @@
 
                 display: flex;
                 justify-content: space-between;
+            }
+            .button-inset:hover{
+                 color: #fff;
             }
 
             .list-button {
@@ -377,6 +380,8 @@
         <script>
             const namePrefixes = ["Arcane", "Feral", "Divine", "Cursed", "Mystic"];
             const nameTypes = ["Warlord", "Summoner", "Champion", "Sorcerer", "Guardian"];
+            
+            const placeHolderTomes = [];
 
           
             function HandlePage() {
@@ -387,6 +392,8 @@
                //         document.getElementById("shareSection").style.display= "none";
                //     document.getElementById("buildsSubmitHolder").style.display = "none";
                // }
+                
+                   jsonTomes = [...jsonTomes, ...placeHolderTomes];
                 SetRandomStart();
 
                 document.getElementById("YourKey").textContent = getOrCreateUserEditKey();
@@ -399,7 +406,7 @@
             }
         </script>
 
-        <title>Age of Wonders 4 Database - Faction Creator</title>
+        <title>Age of Wonders 4 PBEM - Faction Creator</title>
     </head>
 
     <body>
@@ -561,6 +568,22 @@
                                             class="button-inset"
                                             id="originButtonAscension"
                                             onclick="SetupButtons(event,'Ascension')">
+                                            +
+                                        </button>
+                                    </div>
+                                    <br><br>
+                                         <div id="buttonContainer15">
+                                        <span class="small_title"> Ambition</span>
+                                         <button
+                                            style="float: right; color: red"
+                                            class="button"
+                                            onclick="ClearAmbition()">
+                                            X
+                                        </button>
+                                         <button
+                                            class="button-inset"
+                                            id="originButtonAmbition"
+                                            onclick="SetupButtons(event,'Ambition')">
                                             +
                                         </button>
                                     </div>

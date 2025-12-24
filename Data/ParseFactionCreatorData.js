@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const filePath = "EN/BuilderLookup.json";
+const filePath = "GEN/BuilderLookup.json";
 
 // Read the existing JSON file
 let existingData;
@@ -31,8 +31,10 @@ try {
     console.log("error");
 }
 
+
+
 // get the traits, tomes, etc
-const testFilePathTraits2 = "EN/FactionCreation.json";
+const testFilePathTraits2 = "GEN/FactionCreation.json";
 // read the source data list to check if theres anything new to add
 let dataToCheck2;
 try {
@@ -56,6 +58,30 @@ try {
     existingData = [];
 }
 
+// get the traits, tomes, etc
+const testFilePathTraits4 = "EN/HeroSkills.json";
+// read the source data list to check if theres anything new to add
+let dataToCheck4;
+try {
+    const fileContent = fs.readFileSync(testFilePathTraits4, "utf-8");
+    dataToCheck4 = JSON.parse(fileContent);
+} catch (error) {
+    // Handle the case when the file doesn't exist or is not valid JSON
+    console.log("error");
+}
+
+// get the ambitions, etc
+const testFilePathTraits5 = "EN/Destinies.json";
+// read the source data list to check if theres anything new to add
+let dataToCheck5;
+try {
+    const fileContent = fs.readFileSync(testFilePathTraits5, "utf-8");
+    dataToCheck5 = JSON.parse(fileContent);
+} catch (error) {
+    // Handle the case when the file doesn't exist or is not valid JSON
+    console.log("error");
+}
+
 // go through all entries in the source data
 var newList = [];
 for (let index = 0; index < dataToCheck.length; index++) {
@@ -75,6 +101,20 @@ for (let index = 0; index < dataToCheck2.length; index++) {
 for (let index = 0; index < dataToCheck3.length; index++) {
     var newEntry = {
         id: dataToCheck3[index].id
+    };
+    newList.push(newEntry);
+}
+
+for (let index = 0; index < dataToCheck4.length; index++) {
+    var newEntry = {
+        id: dataToCheck4[index].id
+    };
+    newList.push(newEntry);
+}
+
+for (let index = 0; index < dataToCheck5.length; index++) {
+    var newEntry = {
+        id: dataToCheck5[index].id
     };
     newList.push(newEntry);
 }

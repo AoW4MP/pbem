@@ -66,7 +66,7 @@ function RevealKey() {
 
 function downloadEditKeyFile() {
   const text =
-    "Age of Wonders 4 Database (minionsart.github.io/pbem)\nYour Build Edit Key : " + getOrCreateUserEditKey(); // Replace with your dynamic content
+    "Age of Wonders 4 PBEM (minionsart.github.io/pbem)\nYour Build Edit Key : " + getOrCreateUserEditKey(); // Replace with your dynamic content
   const filename = "pbem_EditKey.txt";
 
   const blob = new Blob([text], { type: "text/plain" });

@@ -146,14 +146,17 @@
                     <div>
                         <p class="mod_description" id="moddescription">TestText</p>
                     </div>
-                    <img class="preview_image" id="structurepreview" src="/pbem/Icons/Interface/empty.png" />
+                   
+                   
                 </div>
+                 <img class="preview_image" id="structurepreview" src="/pbem/Icons/Interface/empty.png" />
             </div>
 
             <div style="clear: both"></div>
             <div
                 id="affectUnitTypes"
                 style="float: right; display: grid; grid-template-columns: 200px 200px; font-size: 12px"></div>
+             <div id="event" ></div>
         </div>
     </div>
 </template>
@@ -171,9 +174,12 @@
                     <p class="abilityLineSlot" style="padding-left: 10px; font-size: 15px" id="modupkeep"></p>
                 </div>
             </div>
-            <div style="width: 150px; position: absolute; left: -162px; top: 10px">
-                <p style="font-size: 15px" id="originTome"></p>
+            <div style="width: 100px; position: absolute; left: -120px; top: 10px">
+                
+                <p style="position:absolute" id="originTomeAffinities"></p>
+                <p style="position:absolute; top:80px" id="originTomeTier"></p>
                 <img id="originTomeIcon" height="100px" src="/pbem/Icons/Interface/empty.png" />
+                <p style="font-size: 15px" id="originTomeName"></p>
             </div>
             <div style="display: flex; justify-content: flex-start">
                 <div style="width: 100px; padding-top: 15px">

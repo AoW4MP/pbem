@@ -270,7 +270,7 @@ ELDRITCHREALMS,
 WAYSOFWAR,
 HERALDOFGLORY,
 PRIMALFURY,
-EMPIRESANDASHES,ARCHONPROPHECY {
+EMPIRESANDASHES,ARCHONPROPHECY, COSMICWANDERER, THRONESOFBLOOD {
     max-width: 20px;
     top: 7px;
     position: relative;
@@ -295,6 +295,13 @@ PRIMALFURY {
 
 HERALDOFGLORY {
     content: url(/pbem/Icons/Text/herald_of_glory.png);
+}
+
+COSMICWANDERER {
+    content: url(/pbem/Icons/Text/CosmicWanderer.png);
+}
+THRONESOFBLOOD {
+      content: url(/pbem/Icons/Text/ThronesOfBlood.png);
 }
 
 ELDRITCHREALMS {
@@ -635,6 +642,34 @@ structureprod {
     position: relative;
 }
 
+embalmedsacrifice{
+     max-height: 20px;
+    top: 3px;
+    content: url(/pbem/Icons/Text/embalmedSacrifice.png);
+    position: relative;
+}
+
+goodrelation{
+     max-height: 20px;
+    top: 3px;
+    content: url(/pbem/Icons/Text/goodrelations.png);
+    position: relative;
+}
+
+minorcity{
+     max-height: 20px;
+    top: 3px;
+    content: url(/pbem/Icons/Text/free_city.png);
+    position: relative;
+}
+
+allegiance{
+       max-width: 20px;
+    top: 2px;
+    content: url(/pbem/Icons/Text/allegiance.png);
+    position: relative;
+}
+
 reputation8 {
     max-height: 20px;
     top: 3px;
@@ -759,6 +794,19 @@ magicvictory {
     max-height: 20px;
     top: 3px;
     content: url(/pbem/Icons/Text/magicvictory.png);
+    position: relative;
+}
+
+ancientwonder {
+    max-height: 20px;
+    top: 3px;
+    content: url(/pbem/Icons/Text/ancientwonder.png);
+    position: relative;
+}
+quest {
+    max-height: 20px;
+    top: 3px;
+    content: url(/pbem/Icons/Text/quest.png);
     position: relative;
 }
 
@@ -967,7 +1015,18 @@ tierV {
     content: url(/pbem/Icons/Text/tierV.png);
     position: relative;
 }
-
+ench {
+    max-height: 20px;
+    top: 5px;
+    content: url(/pbem/Icons/Text/transform.png);
+    position: relative;
+}
+other {
+    max-width: 20px;
+    top: 5px;
+    content: url(/pbem/Icons/Text/other.png);
+    position: relative;
+}
 unit {
     max-width: 20px;
     top: 5px;
@@ -1067,6 +1126,14 @@ gold {
     top: 3px;
     left: 3px;
     content: url(/pbem/Icons/Text/gold.png);
+    position: relative;
+}
+
+whisperingstone {
+    max-height: 20px;
+    top: 3px;
+    left: 3px;
+    content: url(/pbem/Icons/Text/whisperingstone.png);
     position: relative;
 }
 

@@ -566,10 +566,16 @@ p {
     position: sticky;
     top: 0;
     z-index: 2;
+  scrollbar-color: #15846f black;
+  scrollbar-width: thin;
 }
 
 .w3-bar .w3-button {
     white-space: normal;
+}
+
+.switch{
+    color: white;
 }
 
 .w3-bar .w3-bar-item {
@@ -1259,6 +1265,20 @@ hr {
     border-image-slice: 10 10 10 10;
 }
 
+.button-event {
+   
+    background-color: #35260d;
+    color: #b8ac55;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    /* height: 30px; */
+    padding: 3px;
+    margin: 5px;
+    font-size: 15px;
+  
+}
+
 .button-random {
     background-color: #4b1d63;
     color: #fff;
@@ -1340,6 +1360,9 @@ hyperlink {
     color: beige;
 }
 
+eventColor{
+     color: #a965ca;
+}
 helpcolor {
     color: lightgrey;
 }
@@ -1624,7 +1647,7 @@ silver {
     border-style: solid;
     border-color: #490d82;
     transform: rotate(45deg);
-    background: linear-gradient(126deg, purple 50%, #65aadf);
+    background: linear-gradient(126cdeg, purple 50%, #65aadf);
 }
 
 .ARCHONPROPHECYtriangle {
@@ -1640,6 +1663,21 @@ silver {
     border-color: #f5f100;
     transform: rotate(45deg);
     background: linear-gradient(126deg, #1adff2 50%, #65aadf);
+}
+
+.THRONESOFBLOODtriangle {
+    position: absolute;
+
+    z-index: 0;
+    top: -22px;
+    right: -28px;
+    width: 30px;
+    height: 30px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #b61515;
+    transform: rotate(45deg);
+    background: linear-gradient(126deg, #f66363 50%, #ff002d);
 }
 
 .header-img::after {
@@ -1658,12 +1696,30 @@ silver {
     z-index: -1;
 }
 
+.eventBodySegment{
+    padding: 10px;
+      font-size:15px;
+}
+
+.eventTitleSegment{
+    padding: 10px;
+    color: white;
+      font-size:18px;
+      font-family: "Decorative", sans-serif;
+}
+
+.eventLoreSegment{
+    padding: 10px;
+    color: aquamarine;
+    font-size:15px;
+}
+
 .mid-text {
     text-align: center;
     position: relative;
 
     font-size: 17px;
-    top: -30%;
+    top: -20%;
     margin: -15px;
     text-shadow: 2px 2px 5px black;
     text-shadow:
@@ -1683,7 +1739,8 @@ silver {
     position: relative;
     font-family: "Decorative", sans-serif;
     font-size: 35px;
-    top: -15%;
+   
+   
     left: 50%;
     transform: translate(-50%, -30%);
     text-shadow: 2px 2px 5px black;
@@ -1695,18 +1752,18 @@ silver {
         -2px -2px 5px black,
         1px 1px 0 #000;
     color: whitesmoke;
-    opacity: 2;
 }
 
 .current-version {
    
+  
     text-align: left;
     width: fit-content;
     position: relative;
     font-family: "Regular", sans-serif;
     font-size: 14px;
-    top: -35%;
-    /* left: 1%; */
+    top: -12%;
+    left: 1%;
     color: whitesmoke;
     opacity: 2;
 }

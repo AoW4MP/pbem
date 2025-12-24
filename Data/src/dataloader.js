@@ -1,4 +1,3 @@
-
 const unlockableUnitsMapStructures = {
     wildlife_sanctuary: ["goretusk_piglet", "dread_spider_hatchling", "vampire_spider_hatchling", "razorback", "warg"],
     demon_gate: ["inferno_puppy", "gremlin", "inferno_hound", "chaos_eater"],
@@ -8,41 +7,17 @@ const unlockableUnitsMapStructures = {
 };
 
 
+function cleanTranslation(text) {
+  if (!text) return text;
 
-const highCultureUnits = ["lightseeker", "dawn_defender", "dusk_hunter", "sun_priest", "daylight_spear", "awakener"];
-const barbarianCultureUnits = ["pathfinder", "sunderer", "warrior", "war_shaman", "fury", "berserker"];
-const darkCultureUnits = ["outrider", "pursuer", "dark_warrior", "warlock", "night_guard", "dark_knight"];
-const feudalCultureUnits = ["scout", "militia", "archer", "bannerman", "defender", "knight", "longbow", "liege_guard"];
-const industriousCultureUnits = ["pioneer", "anvil_guard", "arbalest", "steelshaper", "halberdier", "bastion"];
-const mysticCultureUnits = [
-    "mystic_projection",
-    "arcane_guard",
-    "arcanist",
-    "soother",
-    "spellshield",
-    "spellbreaker",
-    "spellweaver",
-    "summoner"
-];
-const reaverCultureUnits = ["observer", "mercenary", "harrier", "overseer", "magelock", "dragoon", "magelock_cannon"];
-const primalCultureUnits = [
-    "spirit_tracker",
-    "protector",
-    "primal_darter",
-    "primal_charger",
-    "animist",
-    "ancestral_warden"
-];
-const oathswornCultureUnits = [
-    "honor_guard",
-    "wayfarer",
-    "sworn_guard",
-    "sealbearer",
-    "vowkeeper",
-    "peacebringer",
-    "avenger",
-    "warbound"
-];
+  return text
+    // Remove ^fa{[1]}fn{[2]} style markers
+    .replace(/\^fa\{\[\d+\]\}fn\{\[\d+\]\}/g, "")
+    // Remove any ^ followed by a single letter (e.g. ^m, ^N, ^a)
+    .replace(/\^[a-zA-Z]/g, "")
+    // Clean up leftover spaces
+    .trim();
+}
 
 const architectCultureUnits = ["surveyor", "cultivator", "earthbreaker", "guardian", "shademaker", "architect"];
 
@@ -91,7 +66,7 @@ const extraFormUnitsList = [
     "houndmaster",
     "geomancer",
     "paladin",
-    "oracle"
+    "oracle", "pain_bringer", "blood_cultist"
 ];
 
 const incorrectIconOverrideList = [
@@ -105,7 +80,6 @@ const incorrectIconOverrideList = [
     "summon_horned_god",
     "summon_corrupt_soul"
 ];
-
 
 const extraAbilities = [];
 
@@ -131,6 +105,23 @@ const extraSkills = [
             }
         ]
     },
+    {
+  "group_name": "Warlock - Skill Group",
+  "icon": "000004C000000B45",
+  "type": "normal",
+  "resid": 5222680234769,
+  "tree_name": "<classWarlock></classWarlock> Warlock",
+  "name": "Hexseeking Bolts",
+  "tree_pos_x": 250.0,
+  "tree_pos_y": 150.0,
+  "id": "hs_warlock_hexseeking_bolts",
+  "description": "Attacks and <hyperlink>Debuff</hyperlink> abilities against the target of Hex pact:<bulletlist><bullet>Always Hit.</bullet><bullet>Ignore 3 Status Resistance against the target of Hex Pact</bullet></bulletlist>",
+  "required_skills": [
+   {
+    "resid": 5222680234747
+   }
+  ]
+ },
     {
         group_name: "Ritualist - Hero Skill Group",
         icon: "0000048B00000336",
@@ -166,68 +157,86 @@ function fetchJsonFiles(filePaths) {
                 if (!response.ok) {
                     throw new Error(`Network response was not ok: ${response.statusText}`);
                 }
-                return response.json();
+                return  response.json();
             })
         )
     );
 }
 var jsonSiegeProjects;
 
- const dlcMap = {
-            EMPIRESANDASHES: {
-                src: "/pbem/Icons/Text/EmpiresAshes.png",
-                text: "Part of the Empires & Ashes DLC"
-            },
-            DRAGONLORDS: {
-                src: "/pbem/Icons/Text/DragonDawn.png",
-                text: "Part of the Dragon Dawn DLC"
-            },
-            PRIMALFURY: {
-                src: "/pbem/Icons/Text/PrimalFury.png",
-                text: "Part of the Primal Fury DLC"
-            },
-            ELDRITCHREALMS: {
-                src: "/pbem/Icons/Text/EldritchRealms.png",
-                text: "Part of the Eldritch Realms DLC"
-            },
-            HERALDOFGLORY: {
-                src: "/pbem/Icons/Text/herald_of_glory.png",
-                text: "Part of the Herald of Glory DLC"
-            },
-            WAYSOFWAR: {
-                src: "/pbem/Icons/Text/waysofwar.png",
-                text: "Part of the Ways of War DLC"
-            },
-            GIANTKINGS: {
-                src: "/pbem/Icons/Text/GKLogo.png",
-                text: "Part of the Giant Kings DLC"
-            },
-            ARCHONPROPHECY: {
-                src: "/pbem/Icons/Text/ArchonProphecy.png",
-                text: "Part of the Archon Prophecy DLC"
-            }
-        };
-
+const dlcMap = {
+   
+    DRAGONLORDS: {
+        src: "/pbem/Icons/Text/DragonDawn.png",
+        text: "Part of the Dragon Dawn DLC"
+    },
+     EMPIRESANDASHES: {
+        src: "/pbem/Icons/Text/EmpiresAshes.png",
+        text: "Part of the Empires & Ashes DLC"
+    },
+    PRIMALFURY: {
+        src: "/pbem/Icons/Text/PrimalFury.png",
+        text: "Part of the Primal Fury DLC"
+    },
+    ELDRITCHREALMS: {
+        src: "/pbem/Icons/Text/EldritchRealms.png",
+        text: "Part of the Eldritch Realms DLC"
+    },
+    HERALDOFGLORY: {
+        src: "/pbem/Icons/Text/herald_of_glory.png",
+        text: "Part of the Herald of Glory DLC"
+    },
+    WAYSOFWAR: {
+        src: "/pbem/Icons/Text/waysofwar.png",
+        text: "Part of the Ways of War DLC"
+    },
+    GIANTKINGS: {
+        src: "/pbem/Icons/Text/GKLogo.png",
+        text: "Part of the Giant Kings DLC"
+    },
+    ARCHONPROPHECY: {
+        src: "/pbem/Icons/Text/ArchonProphecy.png",
+        text: "Part of the Archon Prophecy DLC"
+    }, COSMICWANDERER: {
+        src: "/pbem/Icons/Text/CosmicWanderer.png",
+        text: "Part of the Cosmic Wanderer DLC"
+    },THRONESOFBLOOD: {
+        src: "/pbem/Icons/Text/ThronesOfBlood.png",
+        text: "Part of the Thrones of Blood DLC"
+    }
+};
 
 async function GetAllData(selectedLang) {
-    let basePathEN;
-    //if(selectedLang == "Beta"){
-    //         basePathEN = `/pbem/Data/Beta/`;
-    //  }else{
-    basePathEN = `/pbem/Data/EN/`;
+    let basePathEN = `/pbem/Data/EN/`;
+
+    if(selectedLang == "BETA"){
+            basePathEN = `/pbem/Data/BETA/`;
+     }
+
+    const basePathGen = `/pbem/Data/GEN/`;
     // }
     //  const basePathEN = `/pbem/Data/EN/`;
     const basePathLocal = `/pbem/Data/${selectedLang}/`;
 
     const fileNamesGeneric = [
         "EnchantmentTables.json",
-        "SpawnTables.json",
+        "all_spawnsets.json",
         "BuilderLookup.json",
         "AscendedInfo.json",
         "BuilderLookupHero.json",
-        "ItemForge.json"
+        "ItemForge.json",
+        "UI.json",
+        "FactionCreation.json",
+        "StatusEffects.json",
+        "ExtraToolTips.json",
+        "CombatEnchantments.json",
+        "WorldStructures.json",
+        "CosmicHappenings.json",
+        "CityTree.json",
+        "all_spawnsets_strategic.json"
     ];
     const fileNames = [
+        // ingame dump files
         "HeroItems.json",
         "HeroSkills.json",
         "SiegeProjects.json",
@@ -238,19 +247,15 @@ async function GetAllData(selectedLang) {
         "EmpireProgression.json",
         "Spells.json",
         "StructureUpgrades.json",
-        "CombatEnchantments.json",
-        "WorldStructures.json",
-        "FactionCreation.json",
         "Destinies.json",
-        "CosmicHappenings.json",
         "Governance.json",
-        "StatusEffects.json",
-        "ExtraToolTips.json",
-        "UI.json"
+        // non-ingame-dump-json-files
+        "UI.json",
+        "all.json"
     ];
 
     // Create file paths
-    const filesToFetchGeneric = fileNamesGeneric.map((f) => basePathEN + f);
+    const filesToFetchGeneric = fileNamesGeneric.map((f) => basePathGen + f);
     const filesToFetchEN = fileNames.map((f) => basePathEN + f);
     const filesToFetchLocal = fileNames.map((f) => basePathLocal + f);
 
@@ -268,7 +273,16 @@ async function GetAllData(selectedLang) {
             "jsonBuilderLookUp",
             "jsonExtraAscendedInfo",
             "jsonBuilderHeroLookUp",
-            "jsonItemForge"
+            "jsonItemForge",
+            "jsonUIGeneric",
+            "jsonFactionCreation",
+            "jsonStatusEffects",
+            "jsonExtraTooltips",
+             "jsonCombatEnchantments",
+        "jsonWorldStructures",
+        "jsonCosmicHappenings",
+            "jsonCityTreeNodes",
+            "jsonSpawnSetsStrat"
         ];
         const targets = [
             "jsonHeroItems",
@@ -281,15 +295,10 @@ async function GetAllData(selectedLang) {
             "jsonEmpire",
             "jsonSpells",
             "jsonStructureUpgrades",
-            "jsonCombatEnchantments",
-            "jsonWorldStructures",
-            "jsonFactionCreation",
             "jsonHeroAmbitions",
-            "jsonCosmicHappenings",
             "jsonHeroGovernance",
-            "jsonStatusEffects",
-            "jsonExtraTooltips",
-            "jsonUI"
+            "jsonUI",
+            "jsonAllFromPO"
         ];
 
         // Assign data to global vars
@@ -326,7 +335,6 @@ function AddExtraData() {
 const abilityMap = {};
 const abilityNameMap = {};
 
-
 async function CheckData() {
     if (jsonSiegeProjects === undefined) {
         let storedSettings = getUserSettings();
@@ -347,10 +355,11 @@ async function CheckData() {
         checkboxNumbers.checked = storedSettings.isolateNumber;
 
         //showBetaTooltip = document.getElementById("showBetaCheckbox");
-        showBetaTooltip.checked = storedSettings.showBeta;
+      //  showBetaTooltip.checked = storedSettings.showBeta;
 
-        //languageSelect = document.getElementById("languageSelect");
-        languageSelect.value = "EN";
+        //  languageSelect = document.getElementById("languageSelect");
+        languageSelect.value = storedSettings.language;
+         //languageSelect.value = "EN";
         let hoverDiv = document.getElementById("hoverDiv");
         let hoverDiv2 = document.getElementById("hoverDiv2");
         if (checkboxTooltip.checked === true) {
@@ -362,38 +371,92 @@ async function CheckData() {
         }
         CheckBoxTooltips();
 
-        //  if (storedSettings.showBeta) {
-        //      await GetAllData("Beta");
-        //  } else {
+       //   if (storedSettings.showBeta) {
+     //        await GetAllData("BETA");
+      //   } else {
         await GetAllData(storedSettings.language);
-        //}
+      //  }
 
         AddExtraData();
-        
-     
 
         jsonUnitAbilitiesLocalized.forEach((a) => (abilityMap[a.slug] = a));
         jsonUnitAbilitiesLocalized.forEach((a) => (abilityNameMap[a.name] = a));
         HandlePage();
-        LocalizeUI();
+        if (languageSelect.value != "EN") {
+            LocalizeUI();
+        }
     }
 }
 
 const patchDates = [
     // date ranges of patches
-    { name: "Griffon 1.1", from: new Date("2025-08-114"), to: new Date("2025-11-29") },
+    { name: "Gargoyle 1.0", from: new Date("2025-11-11"), to: new Date("2026-11-29") },
+    { name: "Griffon 1.1", from: new Date("2025-08-11"), to: new Date("2025-11-10") },
     { name: "Griffon 1.0", from: new Date("2025-08-12"), to: new Date("2025-11-14") },
     { name: "Ogre 1.2.1", from: new Date("2025-05-13"), to: new Date("2025-08-12") },
     { name: "Ogre 1.2", from: new Date("2025-04-26"), to: new Date("2025-05-13") }
 ];
 
-function LocalizeUI() {
+function LocalizeUI(specific) {
+    // general ui lookup first
+    for (const id in jsonUIGeneric) {
+        let el = "";
+        if(specific != undefined){
+              el = specific.querySelector("#" +id);
+            console.log(el);
+           
+        }else{
+              el = document.getElementById(id);
+        }
+       
+        if (el != null) {
+            let value = "error";
+
+            // check if there is a lookup in the baseConceptLookup file
+            if ("lookup" in jsonUIGeneric[id]) {
+                let test = jsonUIGeneric[id].lookup;
+
+                if (test.includes("&")) {
+                    test = test.split("&");
+
+                    const found = findBy(jsonAllFromPOLocalized, "id", test[0]);
+                    if (found) {
+                        value = found[test[1]];
+                    }
+                } else {
+                    const found = findBy(jsonAllFromPOLocalized, "id", test);
+                    if (found) {
+                        value = found.hyperlink;
+                    }
+                }
+             //   console.log(test);
+                value = value.replaceAll("<hyperlink>", "");
+                value = value.replaceAll("</hyperlink>", "");
+                value = value.split("^")[0];
+            } else if ("unit" in jsonUIGeneric[id]) {
+                let test = jsonUIGeneric[id].unit;
+                const abilityName = findBy(jsonUnitAbilities, "name", test);
+                console.log(abilityName.name);
+                const abilityNameLoc = findBy(jsonUnitAbilitiesLocalized, "slug", abilityName.slug);
+                value = abilityNameLoc.name;
+            } else {
+                // Assumes the image is first, text second
+                value = jsonUIGeneric[id].label;
+            }
+
+            el.childNodes[1].nodeValue = " " + value;
+        }
+    }
+    // then specific for ones that arent in the po file translations
     for (const id in jsonUILocalized) {
         const el = document.getElementById(id);
-
         if (el) {
-            el.childNodes[1].nodeValue = " " + jsonUILocalized[id]; // Assumes the image is first, text second
+            let value = "error";
+
+            // Assumes the image is first, text second
+            value = jsonUILocalized[id].label;
+
+            el.childNodes[1].nodeValue = " " + value;
         }
     }
 }
-

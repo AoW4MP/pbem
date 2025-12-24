@@ -237,7 +237,7 @@
   "available_to_non_rulers": false,
   "id": "mártir",
   "name": "Mártir",
-  "screen_description": "~ WIP TEXT: Chronic Victim Syndrome",
+  "screen_description": "WIP TEXT: Chronic Victim Syndrome",
   "available_to_rulers": false,
   "icon": "000003C70000022B",
   "ambitions": [
@@ -266,7 +266,7 @@
   "icon": "000004AC00000071",
   "ambitions": [
    {
-    "screen_description": "Matar personalmente a una unidad no muerta o demoníaca de nivel 4 o superior en combate. Las invocaciones de combate no cuentan.",
+    "screen_description": "Matar personalmente a una unidad no muerta, demoníaca o demoníaca umbría de nivel 4 o superior en combate. Las invocaciones de combate no cuentan.",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
@@ -279,7 +279,7 @@
     ]
    },
    {
-    "screen_description": "Matar personalmente a una unidad no muerta o demoníaca en combate. Las invocaciones de combate no cuentan.",
+    "screen_description": "Matar personalmente a una unidad no muerta, demoníaca o demoníaca umbría en combate. Las invocaciones de combate no cuentan.",
     "type": "minor",
     "reward_renown": 35,
     "repeatable": true,
@@ -333,7 +333,7 @@
     "reward_properties": [
      {
       "name": "Druida",
-      "screen_description": "Mientras sea el líder del ejército, las unidades <hyperlink>animales</hyperlink>, <hyperlink>plantas</hyperlink> y <hyperlink>elementales</hyperlink> que lo conforman obtienen:<bulletlist><bullet>+20 <hyperlink><hp></hp> Puntos de salud</hyperlink>.</bullet><bullet>-20 % de <hyperlink>Mantenimiento de la unidad</hyperlink>.</bullet></bulletlist>",
+      "screen_description": "Mientras sea el líder del ejército, las unidades <hyperlink>animales</hyperlink>, <hyperlink>plantas</hyperlink> y <hyperlink>elementales</hyperlink> que lo conforman obtienen:<bulletlist><bullet>+20 <hyperlink><hp></hp> Puntos de salud</hyperlink>.</bullet><bullet>-20 % de <hyperlink>Mantenimiento de la unidad</hyperlink> básico.</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -513,7 +513,7 @@
     "reward_properties": [
      {
       "name": "Líder pragmático",
-      "screen_description": "Mientras sea el líder del ejército, todas las unidades que lo conforman obtienen:<bulletlist><bullet>Sangre fría</bullet><bullet>-20 % de <hyperlink>Mantenimiento de la unidad</hyperlink></bullet></bulletlist>",
+      "screen_description": "Mientras sea el líder del ejército, todas las unidades que lo conforman obtienen:<bulletlist><bullet>Sangre fría.</bullet><bullet>-20 % de <hyperlink>Mantenimiento de la unidad</hyperlink> básico.</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -551,7 +551,7 @@
    {
     "screen_description": "Tener equipado un objeto durante 3 turnos",
     "type": "minor",
-    "reward_renown": 2,
+    "reward_renown": 3,
     "repeatable": true,
     "reward_properties": []
    }
@@ -592,7 +592,7 @@
   "id": "senescal",
   "name": "Senescal",
   "screen_description": "Este héroe prospera gobernando una ciudad grande y estable.",
-  "available_to_rulers": false,
+  "available_to_rulers": true,
   "icon": "000004AC00000066",
   "ambitions": [
    {

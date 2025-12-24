@@ -105,7 +105,7 @@
     "reward_properties": [
      {
       "name": "Militarisme",
-      "screen_description": "Quand chef d'armée, les Boucliers, Unités hasts, Troupes de choc et Unités combattantes de l'armée gagnent :<bulletlist><bullet>+1 <defense></defense> <hyperlink>Défense</hyperlink>.</bullet></bulletlist>",
+      "screen_description": "Quand chef d'armée, les Boucliers, Unités d'hast, Troupes de choc et Unités combattantes de l'armée gagnent :<bulletlist><bullet>+1 <defense></defense> <hyperlink>Défense</hyperlink>.</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -237,7 +237,7 @@
   "available_to_non_rulers": false,
   "id": "martyre",
   "name": "Martyre",
-  "screen_description": "~ WIP TEXT: Chronic Victim Syndrome",
+  "screen_description": "WIP TEXT: Chronic Victim Syndrome",
   "available_to_rulers": false,
   "icon": "000003C70000022B",
   "ambitions": [
@@ -266,7 +266,7 @@
   "icon": "000004AC00000071",
   "ambitions": [
    {
-    "screen_description": "Tuer personnellement une unité morte-vivante ou démoniaque d'échelon 4+ au combat. Les invocations de combat ne comptent pas.",
+    "screen_description": "Tuer personnellement une unité morte-vivante, démon ou ténébreuse d'échelon 4+ au combat. Les invocations de combat ne comptent pas.",
     "type": "major",
     "reward_renown": 150,
     "repeatable": false,
@@ -279,7 +279,7 @@
     ]
    },
    {
-    "screen_description": "Tuer personnellement une unité morte-vivante ou démoniaque au combat. Les invocations de combat ne comptent pas.",
+    "screen_description": "Tuer personnellement une unité morte-vivante, démon ou ténébreuse au combat. Les invocations de combat ne comptent pas.",
     "type": "minor",
     "reward_renown": 35,
     "repeatable": true,
@@ -333,7 +333,7 @@
     "reward_properties": [
      {
       "name": "Druidisme",
-      "screen_description": "Quand chef d'armée, toutes les unités Animal, Plante et Élémentaire de cette armée ont :<bulletlist><bullet>+20 <hyperlink><hp></hp> Points de vie</hyperlink></bullet><bullet>-20 % de <hyperlink>Entretien d'unité</hyperlink></bullet></bulletlist>",
+      "screen_description": "Quand chef d'armée, toutes les unités Animal, Plante et Élémentaire de cette armée ont :<bulletlist><bullet>+20 <hyperlink><hp></hp> Points de vie</hyperlink></bullet><bullet>-20 % d'<hyperlink>Entretien d'unité</hyperlink> de base </bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -513,7 +513,7 @@
     "reward_properties": [
      {
       "name": "Pragmatisme",
-      "screen_description": "Quand chef d'armée, toutes les unités de l'armée obtiennent :<bulletlist><bullet>Imperturbable</bullet><bullet>-20 % d'<hyperlink>Entretien d'unité</hyperlink></bullet></bulletlist>",
+      "screen_description": "Quand chef d'armée, toutes les unités de l'armée obtiennent :<bulletlist><bullet>Imperturbable</bullet><bullet>-20 % d'<hyperlink>Entretien d'unité</hyperlink>de base.</bullet></bulletlist>",
       "icon": "000003E100001EC5"
      }
     ]
@@ -551,7 +551,7 @@
    {
     "screen_description": "Avoir un objet équipé pendant 3 tours",
     "type": "minor",
-    "reward_renown": 2,
+    "reward_renown": 3,
     "repeatable": true,
     "reward_properties": []
    }
@@ -592,7 +592,7 @@
   "id": "intendant",
   "name": "Intendant",
   "screen_description": "Ce héros s'épanouit à gouverner une grande ville stable.",
-  "available_to_rulers": false,
+  "available_to_rulers": true,
   "icon": "000004AC00000066",
   "ambitions": [
    {

@@ -55,17 +55,10 @@
                     addAbility(slug);
                 }
             }
-            function HideAll() {
-                const divs = document.getElementsByClassName("list_abilityslot");
-
-                for (let i = 0; i < divs.length; i++) {
-                    const div = divs[i];
-                    div.style.display = "none";
-                }
-            }
-
+            
             function ShowAllPassivesWithFilters() {
-                HideAll();
+                document.querySelectorAll(".list_abilityslot").forEach((div) => (div.style.display = "none"));
+         
                 var list = new Array();
                 var filter = document.getElementById("filterInput");
                 var filterText = filter.value.toUpperCase();
@@ -174,10 +167,11 @@
                     abilityReq,
                     abilityMod = "";
 
-                for (j in jsonUnitAbilities) {
-                    if (a === jsonUnitAbilities[j].slug) {
-                        abilityName = jsonUnitAbilities[j].name;
-                        abilityIcon = jsonUnitAbilities[j].icon;
+                for (j in jsonUnitAbilitiesLocalized) {
+                    if (a === jsonUnitAbilitiesLocalized[j].slug) {
+                        
+                        abilityName = jsonUnitAbilitiesLocalized[j].name;
+                        abilityIcon = jsonUnitAbilitiesLocalized[j].icon;
 
                         var tooltipName = document.createElement("SPAN");
                         var btn = document.createElement("DIV");
@@ -191,7 +185,7 @@
                         imag.className = "unit_ability_icon";
                         //  var spa = document.createElement("SPAN");
 
-                        abilityDescr = jsonUnitAbilities[j].description;
+                        abilityDescr = jsonUnitAbilitiesLocalized[j].description;
 
                         var abilityIconType = "";
                         imag.setAttribute("src", "/pbem/Icons/UnitIcons/" + abilityIcon + ".png");
@@ -349,7 +343,7 @@
             }
         </script>
 
-        <title>Age of Wonders 4 Database - Passives List</title>
+        <title>Age of Wonders 4 PBEM - Passives List</title>
     </head>
 
     <body>
